@@ -1,4 +1,5 @@
-## NEGASI HAILE
+### NEGASI HAILE
+**Data Scientist / JavaScript full-stack developer**
 
 [negasihaile19@gmail.com](https://mail.google.com/mail/?extsrc=mailto&url=mailto:negasihaile.abadi@gmail.com) | [linkedin.com/in/negasi-haile-abadi](https://www.linkedin/in/negasi-haile-abadi) | [github.com/negasihaile](https://github.com/NegasiHaile)
 

@@ -2,15 +2,15 @@
 
 I'm passionate about leveraging data and technology to revolutionize healthcare and improve patient outcomes.
 
-- ✅ I’m **Data Scientist** and **JavaScript full-stack** developer.
-- 🌱 I’m focusing on **Digital Healthcare Solution** and **AI Healthcare Transformation**.
+- ✅ I’m a **JavaScript full-stack** developer and **Data Scientist** .
+- 🌱 I focus on **AI Solutions** and **Digital Healthcare Transformation**.
 - 🩻 I’m currently working on [Afro Chest X-ray](https://github.com/asmelashteka/Afro-Chest-X-ray) dataset.
 - 🏩 Previously I worked in **Diabetes Intervention System**, **Visualizing Ambulatory Glucose profile**, and **Healthcare Data Managment Saas**
 - 🛠️ Tech Stack:
-  - **Languages**: Python, C#, JavaScript (React, Node.js, Next.js), SQL.
-  - **Tools**: Pandas, NumPy, TensorFlow, PyTorch, Docker.
+  - **Languages**: Python, C#, and JavaScript (React JS, Node JS, Express JS, Nest JS).
+  - **Database**: SQL, PostgreSQL, MySQL, and MongoDB.
   - **Cloud**: Azure, Google Cloud, AWS.
-  - **Data Science**: Machine Learning, Deep Learning, Data Visualization.
+  - **Data Science**: Pandas, NumPy, TensorFlow, PyTorch, Hugging Face Transformers.
 
 <!-- 🪪 I'm full-stack developer with 5 years of experience, played a key role in developing enterprise-level applications, including digital health solutions such as Diabetes Intervention System and healthcare data server management Saas. And, as a data scientist, my experience involves processing Glucose and DICOM images of X-ray, CT, and MRI, creating baseline ML models, and evaluating translation systems with a patient discharge prescription. This exposure has motivated me to focus on digital healthcare transformation and AI solutions. -->
 

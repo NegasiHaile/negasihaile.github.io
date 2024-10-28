@@ -4,7 +4,7 @@ I'm passionate about leveraging data and technology to revolutionize healthcare 
 
 - ✅ I’m a **JavaScript full-stack** developer and **Data Scientist** .
 - 🌱 I focus on Web based **AI Solutions** and **Digital Healthcare Transformation**.
-- 🩻 I’m currently working on [Afro Chest X-ray](https://github.com/asmelashteka/Afro-Chest-X-ray) dataset.
+- 🏋️ I’m currently working on [Afro Chest X-ray](https://github.com/asmelashteka/Afro-Chest-X-ray) dataset.
 - 🏩 Previously I worked in **Diabetes Intervention System**, **Visualizing Ambulatory Glucose profile**, and **Healthcare Data Managment Saas**
 - 🛠️ Tech Stack:
   - **Languages**: Python, C#, and JavaScript (React JS, Node JS, Express JS, Nest JS).

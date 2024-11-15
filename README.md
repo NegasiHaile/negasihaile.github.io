@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-I'm passionate about leveraging data and technology to revolutionize healthcare and improve patient outcomes.
+I'm passionate about leveraging data to revolutionize healthcare decision support tools and improve patient outcomes.
 
 - ✅ I’m a **JavaScript full-stack** developer and **Data Scientist** .
 - 🌱 I focus on Web based **AI Solutions** and **Digital Healthcare Transformation**.

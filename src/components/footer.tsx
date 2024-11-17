@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="row-start-3 w-full flex gap-6 opacity-50 py-5 flex-wrap items-center justify-center">
+    <footer className="row-start-3 w-full flex gap-6 opacity-50 py-12 flex-wrap items-center justify-center">
       <a
         className="flex items-center gap-2 hover:underline hover:underline-offset-4"
         href="https://www.linkedin.com/in/negasi-haile-abadi/"
@@ -17,6 +17,21 @@ const Footer = () => {
           height={16}
         />
         LinkedIn →
+      </a>
+      <a
+        className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+        href="https://www.linkedin.com/in/negasi-haile-abadi/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image
+          aria-hidden
+          src="/file.svg"
+          alt="File icon"
+          width={16}
+          height={16}
+        />
+        Google Scholar →
       </a>
       <a
         className="flex items-center gap-2 hover:underline hover:underline-offset-4"

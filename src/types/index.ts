@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface ProjectType {
   id: number;
   category: string;
@@ -10,4 +12,15 @@ export interface ProjectType {
   tech_stack: string[];
   demo: string;
   git: string;
+}
+
+export interface SocialAccountsTypes {
+  id: number;
+  title: string;
+  link: string;
+  icon: React.JSX.Element;
+}
+
+export interface IconProps {
+  className?: string;
 }

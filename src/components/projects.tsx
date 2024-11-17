@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { projects } from "@/data/projects";
 import Project from "@/utils/cards/Project";
-import { ProjectType } from "@/types/project";
+import { ProjectType } from "@/types";
 
 type ProjectsProps = {
   display: string;

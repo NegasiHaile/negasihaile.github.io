@@ -1,7 +1,6 @@
-import { ProjectType } from "@/types/project";
+import { ProjectType } from "@/types";
 import Link from "next/link";
 import React from "react";
-import IconMoniter from "../icons/IconMoniter";
 import { IconArrowRipple, IconExpand, IconStart, RightArrow } from "../icons";
 
 interface ProjectProps {

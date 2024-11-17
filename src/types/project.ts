@@ -8,4 +8,6 @@ export interface ProjectType {
   startAt: string;
   endAt: string;
   tech_stack: string[];
+  demo: string;
+  git: string;
 }

@@ -2,6 +2,7 @@ import { ProjectType } from "@/types/project";
 import Link from "next/link";
 import React from "react";
 import IconMoniter from "../icons/IconMoniter";
+import { IconArrowRipple, IconExpand, IconStart, RightArrow } from "../icons";
 
 interface ProjectProps {
   index: number;
@@ -10,19 +11,51 @@ interface ProjectProps {
 
 const Project = ({ index, project }: ProjectProps) => {
   return (
-    <div key={index} className="w-full border rounded-md p-3 min-h-24">
+    <div
+      key={index}
+      className="w-full border rounded-md p-3 space-y-4 min-h-24"
+    >
       {/* Card Header */}
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center border-b pb-2">
         <div className="flex items-center space-x-3">
-          <Link href="/" className="text-blue-500">
+          <Link
+            target="_blank"
+            href={project.demo || project.git}
+            className="flex items-center"
+          >
+            <IconArrowRipple className="w-5 h-5 mr-1" />
             {project.title}
           </Link>
-          <p className=" border rounded-md px-2 opacity-70 text-sm">Health</p>
+
+          <p className=" border rounded-md px-2 opacity-70 text-xs">
+            {project.sub_category}
+          </p>
         </div>
 
-        <div className="cursor-pointer">
-          <IconMoniter />
+        <div className="cursor-pointer hover:opacity-65">
+          <IconExpand />
         </div>
+      </div>
+
+      {/* CARD BODY */}
+      <div className="text-sm line-clamp-4 opacity-80 dark:font-thin tracking-wider">
+        <p>{project.description}</p>
+      </div>
+
+      {/* CARD FOOTER */}
+      <div className="flex w-full items-center space-x-5">
+        {project.tech_stack.map((item, i) => {
+          if (i > 2) return null;
+          return (
+            <div
+              key={i}
+              className="flex w-fit items-center space-x-1 text-xs opacity-65 border rounded-md px-2 py-1 md:py-0"
+            >
+              <IconStart className="w-4 h-4" />
+              <p>{item}</p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

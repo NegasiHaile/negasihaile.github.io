@@ -16,7 +16,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Negasi Haile",
   description:
-    "Negasi Haile, Full-stack Dev', AI solutions, Digital Healthcare Transformation",
+    "Negasi Haile, Full-stack Developer, Data Scientist, Digital Healthcare Transformation, AI solutions",
 };
 
 export default function RootLayout({

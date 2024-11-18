@@ -65,8 +65,8 @@ const Main = () => {
         {/* PROFILE SECTIONS*/}
         <div className="space-y-5">
           <p>
-            I'm passionate about leveraging data and technology to revolutionize
-            healthcare and improve patient outcomes.
+            I&apos;m passionate about leveraging data and technology to
+            revolutionize healthcare and improve patient outcomes.
           </p>
 
           <ul className="list-disc space-y-2 pl-10">

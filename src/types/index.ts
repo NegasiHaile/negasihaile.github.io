@@ -1,5 +1,3 @@
-import { ReactNode } from "react";
-
 export interface ProjectType {
   id: number;
   category: string;

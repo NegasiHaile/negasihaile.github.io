@@ -1,5 +1,3 @@
-import { SocialAccountsTypes } from "@/types";
-import Image from "next/image";
 import Link from "next/link";
 
 import { social_accounts } from "@/data/social_accounts";

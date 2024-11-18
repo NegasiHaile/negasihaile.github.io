@@ -1,5 +1,4 @@
 import Projects from "@/components/projects";
-import Link from "next/link";
 import React from "react";
 
 const Main = () => {
@@ -59,7 +58,7 @@ const Main = () => {
         <div className="flex flex-col md:flex-row md:justify-between items-center py-2 border-b w-full">
           <p className="font-bold text-2xl">Negasi Haile A.</p>
           <p className="text-sm opacity-85 text-center">
-            Full-stck Dev' | Digital Healthcare Solutions | Health AI | NLP
+            Full-stck Dev&apos; | Digital Healthcare Solutions | Health AI | NLP
           </p>
         </div>
 

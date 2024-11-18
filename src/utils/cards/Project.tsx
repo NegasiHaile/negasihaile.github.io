@@ -1,7 +1,7 @@
 import { ProjectType } from "@/types";
 import Link from "next/link";
 import React from "react";
-import { IconArrowRipple, IconExpand, IconStart, RightArrow } from "../icons";
+import { IconArrowRipple, IconExpand, IconStart } from "../icons";
 
 interface ProjectProps {
   index: number;

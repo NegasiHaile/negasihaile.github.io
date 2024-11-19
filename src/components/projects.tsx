@@ -2,6 +2,7 @@ import Link from "next/link";
 import { projects } from "@/data/projects";
 import Project from "@/utils/cards/Project";
 import { ProjectType } from "@/types";
+import Modal from "@/utils/Popups/Modal";
 
 type ProjectsProps = {
   display: string;
@@ -28,6 +29,8 @@ const Projects = ({ display }: ProjectsProps) => {
             <Project key={project.id} index={index} project={project} />
           ))}
       </div>
+
+      <Modal />
     </div>
   );
 };

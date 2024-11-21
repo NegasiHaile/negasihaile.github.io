@@ -1,5 +1,6 @@
-import Projects from "@/components/projects";
 import React from "react";
+import Link from "next/link";
+import ProjectsList from "@/components/projects";
 
 const Home = () => {
   const list = [
@@ -53,7 +54,7 @@ const Home = () => {
   return (
     <div className="w-full space-y-10">
       {/* OVERVIEW */}
-      <div className="border rounded-md p-5 pb-10 space-y-5">
+      <div className="border-x p-5 pb-10 space-y-5">
         {/* WELCOME SECTION */}
         <div className="flex flex-col md:flex-row md:justify-between items-center py-2 border-b w-full">
           <p className="text-sm opacity-85 text-center">
@@ -91,7 +92,19 @@ const Home = () => {
         </div>
       </div>
       {/* PROJECTS SECTIONS */}
-      <Projects display="pinned" />
+      <div className="w-full space-y-2">
+        <div className="flex justify-between items-center">
+          <p>Pinned Projects</p>
+          <Link
+            href={"/projects"}
+            className="text-blue-500 capitalize"
+            title="See all projects"
+          >
+            See all projects
+          </Link>
+        </div>
+        <ProjectsList display="pinned" />
+      </div>
     </div>
   );
 };

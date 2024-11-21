@@ -1,5 +1,21 @@
 export const projects = [
   {
+    id: 0,
+    category: "Web Application", // Web, Mobile, Data, Machine Learning,
+    sub_category: "Logistics", // Health, E-commerce, Real Estate
+    title: "rFleet International Shipment",
+    description: `rFleet is an advanced International Shipment Logistics Platform designed to streamline global shipping operations. It offers real-time tracking, efficient route optimization, and seamless coordination of shipments across borders. Integrated with a smart chatbot developed using Microsoft Power Virtual Agents, rFleet provides clients with instant assistance for tracking shipments, resolving queries, and accessing crucial logistics updates. The chatbot leverages AI-powered natural language processing to deliver personalized support, ensuring quick resolutions and enhancing customer experience. With its robust features and intelligent chatbot integration, rFleet empowers businesses to simplify logistics management and improve operational efficiency on a global scale.`, // Put what this project do, and what problem it solve
+    pinned: false, // true/false
+    startAt: "2023",
+    endAt: "2024",
+    tech_stack: ["NextJS", "Supabase", "Power Virtual Agents"],
+    demo: "",
+    git: ``,
+    status: "Done",
+    start_at: "2023-04",
+    end_at: "2024-04",
+  },
+  {
     id: 1,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
     sub_category: "Health", // Health, E-commerce, Real Estate
@@ -11,10 +27,13 @@ export const projects = [
     tech_stack: ["JavaScript", "ReactJS", "ChartJS"],
     demo: "https://a-g-p-report-v01.vercel.app/",
     git: ``,
+    status: "Done",
+    start_at: "2023-04",
+    end_at: "2024-04",
   },
 
   {
-    id: 1,
+    id: 2,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
     sub_category: "Health", // Health, E-commerce, Real Estate
     title: "Deiabets Intervention System",
@@ -25,6 +44,9 @@ export const projects = [
     tech_stack: ["C#", "SQL", "ReactJS", "FHIR"],
     demo: "",
     git: ``,
+    status: "Done",
+    start_at: "2023-04",
+    end_at: "2024-04",
   },
 
   {
@@ -39,10 +61,13 @@ export const projects = [
     tech_stack: ["NestJS", "ReactJS", "PostgreSQL", "GraphQL"],
     demo: "",
     git: ``,
+    status: "Done",
+    start_at: "2023-04",
+    end_at: "2024-04",
   },
 
   {
-    id: 3,
+    id: 4,
     category: "Data Science", // Web, Mobile, Data, Machine Learning,
     sub_category: "Health", // Health, E-commerce, Real Estate
     title: "Afro Chest X-ray",
@@ -53,10 +78,13 @@ export const projects = [
     tech_stack: ["Python", "Pydicom", "dicom2jpg"],
     demo: "",
     git: `https://github.com/asmelashteka/Afro-Chest-X-ray`,
+    status: "Done",
+    start_at: "2023-04",
+    end_at: "2024-04",
   },
 
   {
-    id: 3,
+    id: 5,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
     sub_category: "ERP", // Health, E-commerce, Real Estate
     title: "FMCMS ",
@@ -67,10 +95,13 @@ export const projects = [
     tech_stack: ["MERN", "Bootstrap", "react-pdf"],
     demo: "",
     git: ``,
+    status: "Done",
+    start_at: "2023-04",
+    end_at: "2024-04",
   },
 
   {
-    id: 2,
+    id: 6,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
     sub_category: "Logistics", // Health, E-commerce, Real Estate
     title: "rFleet International Shipment",
@@ -81,5 +112,8 @@ export const projects = [
     tech_stack: ["NextJS", "Supabase", "Power Virtual Agents"],
     demo: "",
     git: ``,
+    status: "Done",
+    start_at: "2023-04",
+    end_at: "2024-04",
   },
 ];

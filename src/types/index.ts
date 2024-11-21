@@ -10,6 +10,9 @@ export interface ProjectType {
   tech_stack: string[];
   demo: string;
   git: string;
+  status: string;
+  start_at: string;
+  end_at: string;
 }
 
 export interface SocialAccountsTypes {

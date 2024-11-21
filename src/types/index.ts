@@ -43,4 +43,5 @@ export interface PublicationTypes {
   publication_date: string;
   paper_link: string;
   other_links: other_linksType[] | [];
+  pinned?: boolean;
 }

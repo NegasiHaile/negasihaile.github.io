@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import ProjectsList from "@/components/projects";
+import Publication from "@/components/publication";
+import { publications } from "@/data/publications";
 
 const Home = () => {
   const list = [
@@ -51,6 +53,8 @@ const Home = () => {
       ],
     },
   ];
+
+  const pinnedPublications = publications.filter((project) => project.pinned);
   return (
     <div className="w-full">
       {/* OVERVIEW */}
@@ -95,16 +99,33 @@ const Home = () => {
       {/* PINNED SECTIONS */}
       <div className="w-full space-y-2 my-5">
         <div className="flex justify-between items-center">
-          <p>Pinned Projects</p>
+          <p className="uppercase">Pinned Projects</p>
           <Link
             href={"/projects"}
-            className="text-blue-500 capitalize"
+            className="text-blue-500"
             title="See all projects"
           >
             See all projects
           </Link>
         </div>
         <ProjectsList display="pinned" />
+      </div>
+
+      {/* PINNED PUBLICATIONS */}
+      <div className="w-full space-y-2 my-10">
+        <div className="flex justify-between items-center">
+          <p className="uppercase">Pinned Publications</p>
+          <Link
+            href={"/publications"}
+            className="text-blue-500"
+            title="See all projects"
+          >
+            See all publications
+          </Link>
+        </div>
+        {pinnedPublications.map((item, i) => {
+          return <Publication key={i} publication={item} />;
+        })}
       </div>
     </div>
   );

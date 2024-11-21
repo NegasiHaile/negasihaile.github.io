@@ -36,6 +36,7 @@ export const publications = [
     publication_date: `2025`,
     paper_link: "https://github.com/asmelashteka/Afro-Chest-X-ray",
     other_links: [],
+    pinned: true,
   },
   {
     id: 1,
@@ -74,6 +75,7 @@ export const publications = [
     paper_link:
       "https://arxiv.org/abs/2411.05049#:~:text=Fufa%20Balcha%2C-,Negasi%20Haile%20Abadi,-%2C%20Henok%20Biadglign",
     other_links: [],
+    pinned: true,
   },
   {
     id: 0,
@@ -119,5 +121,6 @@ export const publications = [
         link: "https://github.com/NegasiHaile/DS-Ti-En-MT-evaluation",
       },
     ],
+    pinned: false,
   },
 ];

@@ -1,7 +1,6 @@
 import { projects } from "@/data/projects";
 import Project from "@/utils/cards/Project";
 import { ProjectType } from "@/types";
-import Modal from "@/utils/Popups/Modal";
 
 type ProjectsProps = {
   display: string;

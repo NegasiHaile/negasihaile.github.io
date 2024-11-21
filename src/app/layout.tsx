@@ -72,7 +72,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
-        <div className="w-full sm:w-[90%] md:w-[85%] lg:w-[60%] p-5 font-[var(--font-geist-sans)]">
+        <div className="w-full  px-5 h-full sm:w-[90%] md:w-[85%] lg:w-[60%] font-[var(--font-geist-sans)]">
           <NavBar />
           <main>{children}</main>
           <Footer />

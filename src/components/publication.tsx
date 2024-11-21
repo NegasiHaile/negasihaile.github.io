@@ -1,6 +1,5 @@
 import { PublicationTypes } from "@/types";
 import { IconGitHub, IconMicrophone } from "@/utils/icons";
-import IconMoniter from "@/utils/icons/IconMoniter";
 import Link from "next/link";
 import React from "react";
 

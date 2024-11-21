@@ -2,7 +2,7 @@ import React from "react";
 
 const Posts = () => {
   return (
-    <div>
+    <div className="w-full">
       <p className="text-xl "> No results found!</p>
     </div>
   );

@@ -1,6 +1,7 @@
 import RightArrow from "./RightArrow";
 import IconArrowRipple from "./IconArrowRipple";
 import IconBook from "./IconBook";
+import IconCollapse from "./IconCollapse";
 import IconStart from "./IconStart";
 import IconExpand from "./IconExpand";
 import IconLinkedIn from "./IconLinkedIn";
@@ -15,6 +16,7 @@ import IconGoogleScholar from "./IconGoogleScholar";
 export {
   IconArrowRipple,
   IconBook,
+  IconCollapse,
   IconExpand,
   IconGitHub,
   IconGoogleScholar,

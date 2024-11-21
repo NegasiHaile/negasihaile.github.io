@@ -16,16 +16,12 @@ const ProjectsList = ({ display }: ProjectsProps) => {
       : projects;
 
   return (
-    <>
-      <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 gap-5">
-        {/* PROJECT */}
-        {filteredProjects.map((project, index) => (
-          <Project key={project.id} index={index} project={project} />
-        ))}
-      </div>
-
-      <Modal />
-    </>
+    <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 gap-5">
+      {/* PROJECT */}
+      {filteredProjects.map((project, index) => (
+        <Project key={project.id} index={index} project={project} />
+      ))}
+    </div>
   );
 };
 

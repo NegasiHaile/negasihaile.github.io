@@ -25,3 +25,22 @@ export interface SocialAccountsTypes {
 export interface IconProps {
   className?: string;
 }
+
+type other_linksType = {
+  id: number;
+  title: string;
+  link: string;
+};
+
+export interface PublicationTypes {
+  id: number;
+  title: JSX.Element | string;
+  abstract: JSX.Element | string;
+  conference: JSX.Element | string;
+  status: string;
+  start_at: string;
+  end_at: string;
+  publication_date: string;
+  paper_link: string;
+  other_links: other_linksType[] | [];
+}

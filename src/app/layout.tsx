@@ -70,7 +70,7 @@ export default function RootLayout({
         <meta name="twitter:image" content={metadata.twitter.images[0]} />
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
         <div className="w-full sm:w-[90%] md:w-[85%] lg:w-[60%] p-5 font-[var(--font-geist-sans)]">
           <NavBar />

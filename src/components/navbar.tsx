@@ -49,8 +49,8 @@ const NavBar = () => {
               about="negasihaile"
               className={`flex items-center space-x-1 px-3 py-1 rounded-sm transition-all opacity-65 ${
                 isActive
-                  ? "bg-slate-200 hover:opacity-70 dark:bg-slate-800/70 opacity-100" // Active link styling
-                  : ""
+                  ? "bg-slate-200 hover:opacity-70 dark:bg-slate-800/70 opacity-95" // Active link styling
+                  : "hover:opacity-35"
               }`}
             >
               {item.icon ?? null}

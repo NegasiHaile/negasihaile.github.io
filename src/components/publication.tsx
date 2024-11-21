@@ -10,14 +10,14 @@ type PuclicationPropsTypes = {
 
 const Publication = ({ publication }: PuclicationPropsTypes) => {
   return (
-    <div className="w-full p-5 rounded bg-gray-50 dark:bg-slate-900/20 tracking-wide">
+    <div className="w-full p-5 rounded bg-gray-100/70 dark:bg-slate-900/20 tracking-wide">
       <div className="block space-y-2">
         <Link
           target="_blank"
           href={publication.paper_link}
           className="flex items-center space-x-2 text-lg text-blue-500 hover:text-blue-700 dark:opacity-65"
         >
-          <IconMoniter className="size-6 text-gray-500" />
+          {/* <IconMoniter className="size-6 text-gray-500" /> */}
           <span>{publication.title}</span>
         </Link>
         <div className="flex justify-between space-x-1 items-center">

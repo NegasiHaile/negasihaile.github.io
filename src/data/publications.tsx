@@ -1,5 +1,43 @@
 export const publications = [
   {
+    id: 2,
+    title: (
+      <>
+        <b>Afro Chest X-ray:</b> Chest X-ray Imaging Dataset for Multiple
+        Cardio-respiratory Diseases in Ethiopia
+      </>
+    ),
+    abstract: (
+      <>
+        The Chest X-ray Imaging Dataset for Multiple Cardio-respiratory Diseases
+        in Ethiopia (Afro Chest X-ray for short) is a project funded by the
+        LacunaFund whose aim is to close the gap in health disparities by
+        fostering interdisciplinary collaborations that create, expand, or
+        aggregate labeled training and evaluation datasets.
+        <br /> <br />
+        Cardio-respiratory diseases (cardiovascular and respiratory diseases)
+        are recognized as serious, worldwide public health concerns that have
+        remained among the leading causes of death globally. There are not many
+        publicly available datasets from Africa making it difficult to determine
+        whether tools and techniques developed in other geographies are as
+        effective in our context. In this project, we propose to create a
+        labeled chest X-ray dataset for multiple cardio respiratory diseases in
+        Ethiopia. We will publish the dataset as open source. We believe this
+        dataset will stimulate researchers and practitioners in Africa and
+        beyond to push the limits of current methods to adapt them to the
+        African context and build assistive technologies that could empower the
+        scarce radiologists.
+      </>
+    ),
+    conference: `In Progress`,
+    status: "Paper Writing",
+    start_at: "2022",
+    end_at: "2024",
+    publication_date: `2025`,
+    paper_link: "https://github.com/asmelashteka/Afro-Chest-X-ray",
+    other_links: [],
+  },
+  {
     id: 1,
     title: (
       <>

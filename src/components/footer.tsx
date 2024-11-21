@@ -4,7 +4,7 @@ import { social_accounts } from "@/data/social_accounts";
 
 const Footer = () => {
   return (
-    <footer className="row-start-3 w-full flex gap-6 opacity-50 py-12 flex-wrap items-center justify-between px-2">
+    <footer className="row-start-3 w-full flex gap-6 py-12 flex-wrap items-center justify-between px-2">
       {social_accounts.map((account, i) => {
         return (
           <Link

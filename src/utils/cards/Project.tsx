@@ -26,7 +26,7 @@ const Project = ({ index, project }: ProjectProps) => {
             {project.title}
           </Link>
 
-          <p className=" border rounded-md px-2 opacity-70 text-xs">
+          <p className=" border rounded-md px-2 opacity-85 text-xs">
             {project.sub_category}
           </p>
         </div>
@@ -37,7 +37,7 @@ const Project = ({ index, project }: ProjectProps) => {
       </div>
 
       {/* CARD BODY */}
-      <div className="text-sm line-clamp-4 opacity-80 dark:font-thin tracking-wider">
+      <div className="text-sm line-clamp-4 dark:font-thin tracking-wider">
         <p>{project.description}</p>
       </div>
 

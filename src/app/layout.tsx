@@ -19,7 +19,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Negasi Haile",
+  title: "Negasi Haile portfolio",
   description:
     "Negasi Haile, Full-stack Developer, Data Scientist, Digital Healthcare Transformation, AI solutions",
   openGraph: {

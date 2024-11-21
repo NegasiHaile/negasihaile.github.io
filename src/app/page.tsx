@@ -56,10 +56,11 @@ const Home = () => {
       <div className="border rounded-md p-5 pb-10 space-y-5">
         {/* WELCOME SECTION */}
         <div className="flex flex-col md:flex-row md:justify-between items-center py-2 border-b w-full">
-          <p className="font-bold text-2xl">Negasi Haile A.</p>
           <p className="text-sm opacity-85 text-center">
-            Full-stck Dev&apos; | Digital Healthcare Solutions | Health AI | NLP
+            Full-stck Dev&apos; & Data Scientist | Digital Healthcare Solutions
+            | Health AI | NLP
           </p>
+          {/* <p className="font-bold text-2xl">Negasi Haile A.</p> */}
         </div>
 
         {/* PROFILE SECTIONS*/}

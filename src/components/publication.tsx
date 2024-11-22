@@ -30,7 +30,9 @@ const Publication = ({ publication }: PuclicationPropsTypes) => {
         </div>
       </div>
 
-      <p className="py-5 dark:font-thin text-justify">{publication.abstract}</p>
+      <p className="py-5 dark:font-thin text-justify line-clamp-4 md:line-clamp-none">
+        {publication.abstract}
+      </p>
 
       <div className="flex items-center space-x-4">
         {publication.other_links.map((item, i) => {

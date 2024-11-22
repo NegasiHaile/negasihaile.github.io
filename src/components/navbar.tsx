@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation"; // Import usePathname to get the current route
 import { IconBook, IconMicrophone, IconProjects } from "@/utils/icons";
+import IconHome from "@/utils/icons/IconHome";
 
 const NavBar = () => {
   const pathname = usePathname(); // Use usePathname to get the current route
@@ -32,9 +33,12 @@ const NavBar = () => {
   return (
     <nav className="block justify-center md:flex md:justify-between items-center space-y-3 px-1 py-3 border-b mb-5">
       <div className="flex w-full justify-center md:justify-start">
-        <Link href={"/"} about="negasihaile" className="font-bold text-2xl">
-          Negasi Haile A.
-        </Link>
+        <div className="flex w-fit items-center space-x-1">
+          <IconHome className="size-7" />
+          <Link href={"/"} about="negasihaile" className="font-bold text-2xl">
+            Negasi Haile A.
+          </Link>
+        </div>
       </div>
 
       <div className="flex justify-center items-center text-sm">

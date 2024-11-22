@@ -58,7 +58,7 @@ const Home = () => {
   return (
     <div className="w-full">
       {/* OVERVIEW */}
-      <div className="border-x p-5 pb-10 space-y-5 my-5">
+      <div className="border rounded p-5 pb-10 space-y-5 my-5">
         {/* WELCOME SECTION */}
         <div className="flex flex-col md:flex-row md:justify-between items-center py-2 border-b w-full">
           <p className="text-sm opacity-85 text-center">

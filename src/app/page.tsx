@@ -3,6 +3,9 @@ import Link from "next/link";
 import ProjectsList from "@/components/projects";
 import Publication from "@/components/publication";
 import { publications } from "@/data/publications";
+import Image from "next/image";
+import { Testmonial_0 } from "@/utils/images";
+// import TestimonialSlider from "@/components/testmonials";
 
 const Home = () => {
   const list = [
@@ -63,19 +66,29 @@ const Home = () => {
         <div className="flex flex-col md:flex-row md:justify-between items-center py-2 border-b w-full">
           <p className="text-sm opacity-85 text-center">
             Full-stck Dev&apos; & Data Scientist | Digital Healthcare Solutions
-            | Health AI | NLP
+            | Health AI
           </p>
           {/* <p className="font-bold text-2xl">Negasi Haile A.</p> */}
         </div>
 
         {/* PROFILE SECTIONS*/}
         <div className="space-y-5">
-          <p>
-            I&apos;m passionate about leveraging data and technology to
-            revolutionize healthcare and improve patient outcomes.
+          <p className="text-justify">
+            A full-stack developer with 5 years of experience, played a key role
+            in developing enterprise-level applications, including digital
+            health solutions like
+            <b> Continuous Glucose Monitoring (CGM) report</b>,
+            <b> Diabetes Intervention System </b> and healthcare data server
+            management dashboard. And, as a data scientist, my experience
+            involves processing DICOM images of X-ray, CT, and MRI, creating
+            baseline ML models, and evaluating translation systems with a
+            patient discharge prescription. This exposure has motivated me to
+            focus on digital healthcare transformation and AI solutions.
+            {/* I&apos;m passionate about leveraging data and technology to
+            revolutionize healthcare and improve patient outcomes. */}
           </p>
 
-          <ul className="list-disc space-y-2 pl-10">
+          {/* <ul className="list-disc space-y-2 pl-10">
             {list.map((listItem, i) => {
               return (
                 <li key={`main_list_${i}`}>
@@ -92,9 +105,20 @@ const Home = () => {
                 </li>
               );
             })}
-          </ul>
+          </ul> */}
         </div>
       </div>
+
+      {/* TESTMONIALS */}
+      <div className="w-full flex justify-between items-center space-x-3">
+        <Image
+          src={Testmonial_0}
+          alt="negasi hailes's testmonial"
+          className="rounded w-full"
+        />
+      </div>
+
+      {/* <TestimonialSlider /> */}
 
       {/* PINNED SECTIONS */}
       <div className="w-full space-y-2 my-5">

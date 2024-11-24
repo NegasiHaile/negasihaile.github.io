@@ -9,7 +9,7 @@ type PuclicationPropsTypes = {
 
 const Publication = ({ publication }: PuclicationPropsTypes) => {
   return (
-    <div className="w-full p-5 rounded bg-gray-100/70 dark:bg-slate-900/20 tracking-wide">
+    <div className="w-full p-5 rounded border tracking-wide">
       <div className="block space-y-2">
         <Link
           target="_blank"
@@ -30,11 +30,11 @@ const Publication = ({ publication }: PuclicationPropsTypes) => {
         </div>
       </div>
 
-      <p className="py-5 dark:font-thin text-justify line-clamp-4 md:line-clamp-none">
+      <p className="py-5 dark:font-thin text-justify line-clamp-2">
         {publication.abstract}
       </p>
 
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center my-3 space-x-4">
         {publication.other_links.map((item, i) => {
           return (
             <Link

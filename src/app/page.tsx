@@ -3,59 +3,56 @@ import Link from "next/link";
 import ProjectsList from "@/components/projects";
 import Publication from "@/components/publication";
 import { publications } from "@/data/publications";
-import Image from "next/image";
-import { Testmonial_0 } from "@/utils/images";
-// import TestimonialSlider from "@/components/testmonials";
 
 const Home = () => {
-  const list = [
-    {
-      description:
-        "✅ I’m a JavaScript full-stack developer and Data Scientist.",
-      sublists: [],
-    },
-    {
-      description:
-        "🌱 I focus on Web based AI Solutions and Digital Healthcare Transformation.",
-      sublists: [],
-    },
-    {
-      description: "🏋️ I’m currently working on Afro Chest X-ray dataset.",
-      sublists: [],
-    },
-    {
-      description:
-        "🏩 Previously I worked in Diabetes Intervention System, Visualizing Ambulatory Glucose profile, and Healthcare Data Managment Saas",
-      sublists: [],
-    },
-    {
-      description: "🛠️ Tech Stack:",
-      sublists: [
-        {
-          title: "Languages",
-          description:
-            "Python, C#, and JavaScript (React JS, Node JS, Express JS, Nest JS).",
-          sublists: [],
-        },
-        {
-          title: "Database",
-          description: "SQL, PostgreSQL, MySQL, and MongoDB.",
-          sublists: [],
-        },
-        {
-          title: "Cloud",
-          description: "Azure, Google Cloud, AWS.",
-          sublists: [],
-        },
-        {
-          title: "Data Science",
-          description:
-            "Pandas, NumPy, TensorFlow, PyTorch, Hugging Face Transformers.",
-          sublists: [],
-        },
-      ],
-    },
-  ];
+  // const list = [
+  //   {
+  //     description:
+  //       "✅ I’m a JavaScript full-stack developer and Data Scientist.",
+  //     sublists: [],
+  //   },
+  //   {
+  //     description:
+  //       "🌱 I focus on Web based AI Solutions and Digital Healthcare Transformation.",
+  //     sublists: [],
+  //   },
+  //   {
+  //     description: "🏋️ I’m currently working on Afro Chest X-ray dataset.",
+  //     sublists: [],
+  //   },
+  //   {
+  //     description:
+  //       "🏩 Previously I worked in Diabetes Intervention System, Visualizing Ambulatory Glucose profile, and Healthcare Data Managment Saas",
+  //     sublists: [],
+  //   },
+  //   {
+  //     description: "🛠️ Tech Stack:",
+  //     sublists: [
+  //       {
+  //         title: "Languages",
+  //         description:
+  //           "Python, C#, and JavaScript (React JS, Node JS, Express JS, Nest JS).",
+  //         sublists: [],
+  //       },
+  //       {
+  //         title: "Database",
+  //         description: "SQL, PostgreSQL, MySQL, and MongoDB.",
+  //         sublists: [],
+  //       },
+  //       {
+  //         title: "Cloud",
+  //         description: "Azure, Google Cloud, AWS.",
+  //         sublists: [],
+  //       },
+  //       {
+  //         title: "Data Science",
+  //         description:
+  //           "Pandas, NumPy, TensorFlow, PyTorch, Hugging Face Transformers.",
+  //         sublists: [],
+  //       },
+  //     ],
+  //   },
+  // ];
 
   const pinnedPublications = publications.filter((project) => project.pinned);
   return (
@@ -108,17 +105,6 @@ const Home = () => {
           </ul> */}
         </div>
       </div>
-
-      {/* TESTMONIALS */}
-      <div className="w-full flex justify-between items-center space-x-3">
-        <Image
-          src={Testmonial_0}
-          alt="negasi hailes's testmonial"
-          className="rounded w-full"
-        />
-      </div>
-
-      {/* <TestimonialSlider /> */}
 
       {/* PINNED SECTIONS */}
       <div className="w-full space-y-2 my-5">

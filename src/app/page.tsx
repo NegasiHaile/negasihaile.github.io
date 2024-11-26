@@ -3,6 +3,7 @@ import Link from "next/link";
 import ProjectsList from "@/components/projects";
 import Publication from "@/components/publication";
 import { publications } from "@/data/publications";
+import Testmonial from "@/components/testmonial";
 
 const Home = () => {
   // const list = [
@@ -58,7 +59,7 @@ const Home = () => {
   return (
     <div className="w-full">
       {/* OVERVIEW */}
-      <div className="border rounded p-5 pb-10 space-y-5 my-5">
+      <div className="md:border rounded md:p-5 pb-10 space-y-5 my-5">
         {/* WELCOME SECTION */}
         <div className="flex flex-col md:flex-row md:justify-between items-center py-2 border-b w-full">
           <p className="text-sm opacity-85 text-center">
@@ -74,13 +75,18 @@ const Home = () => {
             A full-stack developer with 5 years of experience, played a key role
             in developing enterprise-level applications, including digital
             health solutions like
-            <b> Continuous Glucose Monitoring (CGM) report</b>,
+            <b> Continuous Glucose Monitoring (CGM)</b>, visualization with
+            <b> Ambulatory Glucose Profile (AGP)</b> report,
             <b> Diabetes Intervention System </b> and healthcare data server
             management dashboard. And, as a data scientist, my experience
             involves processing DICOM images of X-ray, CT, and MRI, creating
             baseline ML models, and evaluating translation systems with a
             patient discharge prescription. This exposure has motivated me to
             focus on digital healthcare transformation and AI solutions.
+            <br />
+            <br />
+            👯 I&apos;m obsessed with exploring healthcare data and improve
+            patient outcomes!
             {/* I&apos;m passionate about leveraging data and technology to
             revolutionize healthcare and improve patient outcomes. */}
           </p>
@@ -105,6 +111,9 @@ const Home = () => {
           </ul> */}
         </div>
       </div>
+
+      {/* TESTMONIAL */}
+      <Testmonial />
 
       {/* PINNED SECTIONS */}
       <div className="w-full space-y-2 my-5">

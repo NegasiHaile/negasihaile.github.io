@@ -2,11 +2,23 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { Testmonial_0, Testmonial_1, Testmonial_2 } from "@/utils/images";
+import {
+  Testmonial_0,
+  Testmonial_1,
+  Testmonial_2,
+  Testmonial_3,
+  Testmonial_4,
+} from "@/utils/images";
 import { IconLeftArrow, RightArrow } from "@/utils/icons";
 
 const Testmonial = () => {
-  const images = [Testmonial_0, Testmonial_1, Testmonial_2];
+  const images = [
+    Testmonial_0,
+    Testmonial_4,
+    Testmonial_2,
+    Testmonial_3,
+    Testmonial_1,
+  ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -28,9 +40,9 @@ const Testmonial = () => {
     <div className="relative w-full m-auto overflow-hidden">
       <button
         onClick={prevSlide}
-        className="top-1/2 absolute bg-black/40 text-white p-2 rounded-r-sm left-0 z-10"
+        className="top-1/2 absolute bg-black/10 text-black/60 p-2 rounded-r-sm left-0 z-10"
       >
-        <IconLeftArrow />
+        <IconLeftArrow className="size-3 md:size-5" />
       </button>
       <div className="relative flex justify-center rounded overflow-hidden">
         {/* w-full flex justify-between items-center space-x-3 */}
@@ -43,9 +55,9 @@ const Testmonial = () => {
       </div>
       <button
         onClick={nextSlide}
-        className="top-1/2 absolute bg-black/40 text-white p-2 rounded-l-sm right-0 z-10"
+        className="top-1/2 absolute bg-black/10 text-black/60 p-2 rounded-l-sm right-0 z-10"
       >
-        <RightArrow />
+        <RightArrow className="size-3 md:size-5" />
       </button>
     </div>
   );

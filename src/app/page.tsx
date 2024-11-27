@@ -3,7 +3,7 @@ import Link from "next/link";
 import ProjectsList from "@/components/projects";
 import Publication from "@/components/publication";
 import { publications } from "@/data/publications";
-// import Testmonial from "@/components/testmonial";
+import Testmonial from "@/components/testmonial";
 
 const Home = () => {
   // const list = [
@@ -112,9 +112,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* TESTMONIAL */}
-      {/* <Testmonial /> */}
-
       {/* PINNED SECTIONS */}
       <div className="w-full space-y-2 my-5">
         <div className="flex justify-between items-center">
@@ -146,6 +143,9 @@ const Home = () => {
           return <Publication key={i} publication={item} />;
         })}
       </div>
+
+      {/* TESTMONIAL */}
+      <Testmonial />
     </div>
   );
 };

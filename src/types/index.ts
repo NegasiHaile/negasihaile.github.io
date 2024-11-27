@@ -5,8 +5,6 @@ export interface ProjectType {
   title: string;
   description: string;
   pinned: boolean;
-  startAt: string;
-  endAt: string;
   tech_stack: string[];
   demo: string;
   git: string;

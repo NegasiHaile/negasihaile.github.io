@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IconLeftArrow, RightArrow } from "@/utils/icons";
 
 type TestmonialPropsTypes = {
@@ -24,6 +24,16 @@ const ImagesSlider = ({ images }: TestmonialPropsTypes) => {
   // setTimeout(() => {
   //   setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   // }, 3000);
+
+  useEffect(() => {
+    const handleContextmenu = (e: any) => {
+      e.preventDefault();
+    };
+    document.addEventListener("contextmenu", handleContextmenu);
+    return function cleanup() {
+      document.removeEventListener("contextmenu", handleContextmenu);
+    };
+  }, []);
 
   return (
     <div className="relative w-full m-auto overflow-hidden">

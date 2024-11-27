@@ -3,7 +3,14 @@ import Link from "next/link";
 import ProjectsList from "@/components/projects";
 import Publication from "@/components/publication";
 import { publications } from "@/data/publications";
-// import ImagesSlider from "@/components/image-slider";
+import ImagesSlider from "@/components/image-slider";
+import {
+  Testmonial_0,
+  Testmonial_1,
+  Testmonial_2,
+  Testmonial_3,
+  Testmonial_4,
+} from "@/utils/images";
 
 const Home = () => {
   // const list = [
@@ -115,7 +122,7 @@ const Home = () => {
       {/* PINNED SECTIONS */}
       <div className="w-full space-y-2 my-5">
         <div className="flex justify-between items-center">
-          <p className="uppercase">Pinned Projects</p>
+          <p className="uppercase font-bold">Pinned Projects</p>
           <Link
             href={"/projects"}
             className="text-blue-500"
@@ -130,7 +137,7 @@ const Home = () => {
       {/* PINNED PUBLICATIONS */}
       <div className="w-full space-y-2 my-10">
         <div className="flex justify-between items-center">
-          <p className="uppercase">Pinned Publications</p>
+          <p className="uppercase font-bold">Pinned Publications</p>
           <Link
             href={"/publications"}
             className="text-blue-500"
@@ -145,7 +152,18 @@ const Home = () => {
       </div>
 
       {/* TESTMONIAL */}
-      {/* <ImagesSlider /> */}
+      <div className="space-y-2">
+        <p className="font-bold uppercase">Upwork Testmonials</p>
+        <ImagesSlider
+          images={[
+            Testmonial_0,
+            Testmonial_1,
+            Testmonial_2,
+            Testmonial_3,
+            Testmonial_4,
+          ]}
+        />
+      </div>
     </div>
   );
 };

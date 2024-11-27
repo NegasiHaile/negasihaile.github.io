@@ -2,13 +2,6 @@ import { ProjectType } from "@/types";
 import React, { Dispatch, SetStateAction } from "react";
 import { IconCollapse } from "../icons";
 import ImagesSlider from "@/components/image-slider";
-// import {
-//   Testmonial_0,
-//   Testmonial_1,
-//   Testmonial_2,
-//   Testmonial_3,
-//   Testmonial_4,
-// } from "@/utils/images";
 import Link from "next/link";
 
 type ModalPropsType = {

@@ -13,9 +13,9 @@ const Modal = ({ showModal, setShowModal, project }: ModalPropsType) => {
     <div
       className={`fixed ${
         showModal ? `flex` : `hidden`
-      } justify-center bg-black/15 h-screen w-full left-0 top-0 z-50`}
+      } justify-center px-5 bg-black/15 w-full top-0 h-screen left-0 right-0 z-50`}
     >
-      <div className="w-[98%] md:w-[80%] lg:w-[75%] xl:w-[65%] h-full bg-gray-100 dark:bg-gray-900 p-5 rounded shadow-light">
+      <div className=" sm:w-[90%] md:w-[85%] lg:w-[60%] h-fit my-auto max-h-screen overflow-y-auto bg-gray-100 dark:bg-gray-900 p-5 rounded shadow-light">
         {/* HEADER */}
         <div className="flex justify-between items-center border-b w-full pb-2">
           <p className="text-lg md:text-2xl font-bold">{project.title}</p>

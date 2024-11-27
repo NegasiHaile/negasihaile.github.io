@@ -2,24 +2,13 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import {
-  Testmonial_0,
-  Testmonial_1,
-  Testmonial_2,
-  Testmonial_3,
-  Testmonial_4,
-} from "@/utils/images";
 import { IconLeftArrow, RightArrow } from "@/utils/icons";
 
-const Testmonial = () => {
-  const images = [
-    Testmonial_0,
-    Testmonial_4,
-    Testmonial_2,
-    Testmonial_3,
-    Testmonial_1,
-  ];
+type TestmonialPropsTypes = {
+  images: string[];
+};
 
+const ImagesSlider = ({ images }: TestmonialPropsTypes) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
@@ -48,9 +37,21 @@ const Testmonial = () => {
         {/* w-full flex justify-between items-center space-x-3 */}
         <Image
           src={images[currentIndex]}
+          width="800"
+          height="300"
           alt="image"
           className="w-full h-full rounded"
         />
+
+        {/* <CldImage
+          src={
+            "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735652/portfolio/assests/fmcms/01_uuftzv.png"
+          }
+          alt=""
+          width="800"
+          height="0"
+          className="w-full h-full rounded"
+        /> */}
         {/* <img src={images[currentIndex]} alt="Slide" className="slider-image" /> */}
       </div>
       <button
@@ -63,4 +64,4 @@ const Testmonial = () => {
   );
 };
 
-export default Testmonial;
+export default ImagesSlider;

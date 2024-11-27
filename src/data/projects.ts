@@ -1,18 +1,36 @@
+import {
+  AGP_1,
+  AGP_3,
+  AGP_4,
+  AGP_5,
+  AGP_6,
+  AGP_7,
+  DiabetesInter_2,
+  DiabetesInter_4,
+  DiabetesInter_5,
+  DiabetesInter_6,
+  DiabetesInter_7,
+  DiabetesInter_9,
+  DiabetesInter_10,
+  DiabetesInter_11,
+  DiabetesInter_13,
+  DiabetesInter_14,
+  Afro_CXR_1,
+  Afro_CXR_2,
+  Afro_CXR_3,
+  Afro_CXR_4,
+  Afro_CXR_5,
+  Afro_CXR_6,
+  Fmcms_1,
+  Fmcms_2,
+  Fmcms_3,
+  Fmcms_4,
+  Fmcms_5,
+  Fmcms_6,
+  Fmcms_7,
+} from "../utils/images";
+
 export const projects = [
-  {
-    id: 0,
-    category: "Web Application", // Web, Mobile, Data, Machine Learning,
-    sub_category: "Logistics", // Health, E-commerce, Real Estate
-    title: "rFleet International Shipment",
-    description: `rFleet is an advanced International Shipment Logistics Platform designed to streamline global shipping operations. It offers real-time tracking, efficient route optimization, and seamless coordination of shipments across borders. Integrated with a smart chatbot developed using Microsoft Power Virtual Agents, rFleet provides clients with instant assistance for tracking shipments, resolving queries, and accessing crucial logistics updates. The chatbot leverages AI-powered natural language processing to deliver personalized support, ensuring quick resolutions and enhancing customer experience. With its robust features and intelligent chatbot integration, rFleet empowers businesses to simplify logistics management and improve operational efficiency on a global scale.`, // Put what this project do, and what problem it solve
-    pinned: false, // true/false
-    tech_stack: ["NextJS", "Supabase", "Power Virtual Agents"],
-    demo: "https://negasi-rfleet.vercel.app/",
-    git: `https://github.com/NegasiHaile/rFLEET`,
-    status: "Done",
-    start_at: "2023-04",
-    end_at: "2024-04",
-  },
   {
     id: 1,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
@@ -28,6 +46,7 @@ export const projects = [
     status: "Done",
     start_at: "2023-04",
     end_at: "2024-04",
+    images: [AGP_1, AGP_3, AGP_4, AGP_5, AGP_6, AGP_7],
   },
 
   {
@@ -43,25 +62,22 @@ export const projects = [
     status: "Done",
     start_at: "2023-04",
     end_at: "2024-04",
+    images: [
+      DiabetesInter_2,
+      DiabetesInter_4,
+      DiabetesInter_5,
+      DiabetesInter_6,
+      DiabetesInter_7,
+      DiabetesInter_9,
+      DiabetesInter_10,
+      DiabetesInter_11,
+      DiabetesInter_13,
+      DiabetesInter_14,
+    ],
   },
 
   {
     id: 3,
-    category: "Web Application", // Web, Mobile, Data, Machine Learning,
-    sub_category: "Health", // Health, E-commerce, Real Estate
-    title: "DEMER Healthcare HR",
-    description: `Healthcare Human Resource Management System is a comprehensive solution designed to streamline the operations of healthcare institutions. It centralizes key processes such as patient management, inventory tracking, billing, and staff scheduling, enabling seamless coordination across departments. The system enhances operational efficiency by integrating modules for electronic medical records (EMR), appointment scheduling, and financial management. It provides real-time data insights, aiding in informed decision-making and compliance with healthcare regulations. With features tailored for the healthcare industry, this ERP system ensures improved patient care, optimized resource utilization, and robust administrative control, making it an essential tool for modern healthcare institutions.`, // Put what this project do, and what problem it solve
-    pinned: true, // true/false
-    tech_stack: ["NestJS", "ReactJS", "PostgreSQL", "GraphQL"],
-    demo: "https://demer-hrms.vercel.app/",
-    git: "https://github.com/NegasiHaile/HRMS-client",
-    status: "Done",
-    start_at: "2023-04",
-    end_at: "2024-04",
-  },
-
-  {
-    id: 4,
     category: "Data Science", // Web, Mobile, Data, Machine Learning,
     sub_category: "Health", // Health, E-commerce, Real Estate
     title: "Afro Chest X-ray",
@@ -73,6 +89,44 @@ export const projects = [
     status: "Paper Writing",
     start_at: "2023-04",
     end_at: "2024-04",
+    images: [
+      Afro_CXR_1,
+      Afro_CXR_2,
+      Afro_CXR_3,
+      Afro_CXR_4,
+      Afro_CXR_5,
+      Afro_CXR_6,
+    ],
+  },
+  {
+    id: 0,
+    category: "Web Application", // Web, Mobile, Data, Machine Learning,
+    sub_category: "Logistics", // Health, E-commerce, Real Estate
+    title: "rFleet International Shipment",
+    description: `rFleet is an advanced International Shipment Logistics Platform designed to streamline global shipping operations. It offers real-time tracking, efficient route optimization, and seamless coordination of shipments across borders. Integrated with a smart chatbot developed using Microsoft Power Virtual Agents, rFleet provides clients with instant assistance for tracking shipments, resolving queries, and accessing crucial logistics updates. The chatbot leverages AI-powered natural language processing to deliver personalized support, ensuring quick resolutions and enhancing customer experience. With its robust features and intelligent chatbot integration, rFleet empowers businesses to simplify logistics management and improve operational efficiency on a global scale.`, // Put what this project do, and what problem it solve
+    pinned: false, // true/false
+    tech_stack: ["NextJS", "Supabase", "Power Virtual Agents"],
+    demo: "https://negasi-rfleet.vercel.app/",
+    git: `https://github.com/NegasiHaile/rFLEET`,
+    status: "Done",
+    start_at: "2023-04",
+    end_at: "2024-04",
+    images: [],
+  },
+  {
+    id: 4,
+    category: "Web Application", // Web, Mobile, Data, Machine Learning,
+    sub_category: "Health", // Health, E-commerce, Real Estate
+    title: "DEMER Healthcare HR",
+    description: `Healthcare Human Resource Management System is a comprehensive solution designed to streamline the operations of healthcare institutions. It centralizes key processes such as patient management, inventory tracking, billing, and staff scheduling, enabling seamless coordination across departments. The system enhances operational efficiency by integrating modules for electronic medical records (EMR), appointment scheduling, and financial management. It provides real-time data insights, aiding in informed decision-making and compliance with healthcare regulations. With features tailored for the healthcare industry, this ERP system ensures improved patient care, optimized resource utilization, and robust administrative control, making it an essential tool for modern healthcare institutions.`, // Put what this project do, and what problem it solve
+    pinned: true, // true/false
+    tech_stack: ["NestJS", "ReactJS", "PostgreSQL", "GraphQL"],
+    demo: "https://demer-hrms.vercel.app/",
+    git: "https://github.com/NegasiHaile/HRMS-client",
+    status: "Done",
+    start_at: "2023-04",
+    end_at: "2024-04",
+    images: [],
   },
 
   {
@@ -88,6 +142,7 @@ export const projects = [
     status: "Done",
     start_at: "2023-04",
     end_at: "2024-04",
+    images: [Fmcms_1, Fmcms_2, Fmcms_3, Fmcms_4, Fmcms_5, Fmcms_6, Fmcms_7],
   },
 
   {
@@ -103,5 +158,6 @@ export const projects = [
     status: "Done",
     start_at: "2023-04",
     end_at: "2024-04",
+    images: [],
   },
 ];

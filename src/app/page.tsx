@@ -3,7 +3,7 @@ import Link from "next/link";
 import ProjectsList from "@/components/projects";
 import Publication from "@/components/publication";
 import { publications } from "@/data/publications";
-import Testmonial from "@/components/testmonial";
+// import ImagesSlider from "@/components/image-slider";
 
 const Home = () => {
   // const list = [
@@ -145,7 +145,7 @@ const Home = () => {
       </div>
 
       {/* TESTMONIAL */}
-      <Testmonial />
+      {/* <ImagesSlider /> */}
     </div>
   );
 };

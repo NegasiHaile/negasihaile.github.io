@@ -12,6 +12,7 @@ export interface ProjectType {
   status: string;
   start_at: string;
   end_at: string;
+  images: string[] | [];
 }
 
 export interface SocialAccountsTypes {

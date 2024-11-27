@@ -3,7 +3,7 @@ import Link from "next/link";
 import ProjectsList from "@/components/projects";
 import Publication from "@/components/publication";
 import { publications } from "@/data/publications";
-import Testmonial from "@/components/testmonial";
+// import Testmonial from "@/components/testmonial";
 
 const Home = () => {
   // const list = [
@@ -113,7 +113,7 @@ const Home = () => {
       </div>
 
       {/* TESTMONIAL */}
-      <Testmonial />
+      {/* <Testmonial /> */}
 
       {/* PINNED SECTIONS */}
       <div className="w-full space-y-2 my-5">

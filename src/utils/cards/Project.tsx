@@ -2,7 +2,13 @@
 import { ProjectType } from "@/types";
 import Link from "next/link";
 import React, { useState } from "react";
-import { IconArrowRipple, IconExpand, IconStart } from "../icons";
+import {
+  IconArrowRipple,
+  IconExpand,
+  IconGitHub,
+  IconStart,
+  IconYoutube,
+} from "../icons";
 import Modal from "../Popups/Modal";
 
 interface ProjectProps {
@@ -50,19 +56,46 @@ const Project = ({ index, project }: ProjectProps) => {
         </div>
 
         {/* CARD FOOTER */}
-        <div className="flex w-full items-center space-x-5">
-          {project.tech_stack.map((item, i) => {
-            if (i > 2) return null;
-            return (
-              <div
-                key={i}
-                className="flex w-fit items-center space-x-1 text-xs opacity-65 border rounded-md px-2 py-1 md:py-0"
+        <div className="flex justify-between items-center">
+          <div className="flex w-full items-center space-x-2">
+            {project.tech_stack.map((item, i) => {
+              if (i > 2) return null;
+              return (
+                <div
+                  key={i}
+                  className="flex w-fit items-center space-x-1 text-xs opacity-65 border rounded-md px-2 py-1 md:py-0"
+                >
+                  <IconStart className="w-4 h-4" />
+                  <p>{item}</p>
+                </div>
+              );
+            })}
+            {project.tech_stack.length > 3 && (
+              <p className="text-sm opacity-60">
+                +{project.tech_stack.length - 3}
+              </p>
+            )}
+          </div>
+          <div className="flex items-center min-h-0 space-x-0">
+            {project?.youtube && (
+              <Link
+                target="_blank"
+                href={project.youtube}
+                className="flex items-center space-x-1 border-transparent border hover:border-red-500 p-1 rounded-full hover:opacity-65"
               >
-                <IconStart className="w-4 h-4" />
-                <p>{item}</p>
-              </div>
-            );
-          })}
+                <IconYoutube className="size-4 md:size-5" />
+              </Link>
+            )}
+            {project?.git && (
+              <Link
+                target="_blank"
+                href={project.git}
+                className="flex items-center space-x-1 border-transparent border hover:border-gray-700 p-1 rounded-full hover:opacity-65"
+              >
+                <IconGitHub className="size-4 md:size-5" />
+              </Link>
+            )}
+          </div>
         </div>
       </div>
 

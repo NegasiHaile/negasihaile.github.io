@@ -1,3 +1,6 @@
+const ProfilePic =
+  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732745596/portfolio/assests/portfolio_n7liaq.jpg";
+
 const Testmonial_0 =
   "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735650/portfolio/assests/upwork/Upwork-00_glthgu.png";
 const Testmonial_1 =
@@ -78,11 +81,15 @@ const Fmcms_7 =
   "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735650/portfolio/assests/fmcms/07_thiufx.png";
 
 export {
+  ProfilePic,
+  //Testmonials
   Testmonial_0,
   Testmonial_1,
   Testmonial_2,
   Testmonial_3,
   Testmonial_4,
+
+  // AGP reports
   AGP_1,
   AGP_3,
   AGP_4,

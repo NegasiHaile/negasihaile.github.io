@@ -3,6 +3,7 @@ import "./globals.css";
 import NavBar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Head from "next/head"; // Import Head for managing meta tags
+import Profile from "@/components/profile";
 
 // Local fonts
 const geistSans = localFont({
@@ -72,9 +73,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
-        <div className="w-full px-5 h-full sm:w-[90%] md:w-[85%] lg:w-[60%] font-[var(--font-geist-sans)]">
+        <div className="w-full px-5 h-full sm:w-[90%] md:w-[95%] lg:w-[75%] font-[var(--font-geist-sans)]">
           <NavBar />
-          <main>{children}</main>
+          <div className="w-full block md:flex space-y-5 md:space-y-0 md:space-x-5">
+            <Profile />
+            <main className="w-full pb-y0">{children}</main>
+          </div>
           <Footer />
         </div>
       </body>

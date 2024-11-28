@@ -77,9 +77,11 @@ export default function RootLayout({
           <NavBar />
           <div className="w-full block md:flex space-y-5 md:space-y-0 md:space-x-5">
             <Profile />
-            <main className="w-full pb-y0">{children}</main>
+            <main className="w-full pb-y0">
+              {children}
+              <Footer />
+            </main>
           </div>
-          <Footer />
         </div>
       </body>
     </html>

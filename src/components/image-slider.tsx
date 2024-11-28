@@ -26,7 +26,7 @@ const ImagesSlider = ({ images }: TestmonialPropsTypes) => {
   // }, 3000);
 
   useEffect(() => {
-    const handleContextmenu = (e: any) => {
+    const handleContextmenu = (e: MouseEvent) => {
       e.preventDefault();
     };
     document.addEventListener("contextmenu", handleContextmenu);

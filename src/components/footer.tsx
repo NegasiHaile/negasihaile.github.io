@@ -9,13 +9,12 @@ const Footer = () => {
         return (
           <Link
             key={i}
-            className="flex items-center gap-1 hover:underline hover:underline-offset-4"
+            className="flex items-center gap-1 hover:underline hover:underline-offset-4 rounded-full p-2 border border-transparent hover:border-gray-500/70"
             href={account.link}
             target="_blank"
             rel="noopener noreferrer"
           >
             {account.icon}
-            <span className="hidden md:block">→ {account.title}</span>
           </Link>
         );
       })}

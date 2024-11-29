@@ -86,9 +86,9 @@ const Home = () => {
             <b> Ambulatory Glucose Profile (AGP)</b> report,
             <b> Diabetes Intervention System </b> and healthcare data server
             management dashboard. And, as a data scientist, my experience
-            involves processing DICOM images of X-ray, CT, and MRI, creating
-            baseline ML models, and evaluating translation systems with a
-            patient discharge prescription. This exposure has motivated me to
+            involves processing radiology data such as X-ray, CT, and MRI,
+            creating baseline ML models, and evaluating translation systems with
+            a patient discharge prescription. This exposure has motivated me to
             focus on digital healthcare transformation and AI solutions.
             <br />
             <br />

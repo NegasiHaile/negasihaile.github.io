@@ -7,16 +7,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Disable image optimization (optional)
   },
-  // Optional: Handling redirects for client-side routing in an SPA environment
-  async redirects() {
-    return [
-      {
-        source: "/old-path",
-        destination: "/new-path",
-        permanent: true,
-      },
-    ];
-  },
 };
 
 export default nextConfig;

@@ -80,6 +80,33 @@ const Fmcms_6 =
 const Fmcms_7 =
   "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735650/portfolio/assests/fmcms/07_thiufx.png";
 
+const HornChat_1 =
+  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732991139/portfolio/assests/hornchat/01_tm930o.png";
+const HornChat_2 =
+  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732991140/portfolio/assests/hornchat/02_xvs72p.png";
+
+const You_com_01 =
+  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732991172/portfolio/assests/you.com%20clone/01_ioqtbc.png";
+const You_com_02 =
+  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732991176/portfolio/assests/you.com%20clone/02_d7cera.png";
+const You_com_03 =
+  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732991180/portfolio/assests/you.com%20clone/04_lecybl.png";
+const You_com_04 =
+  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732991180/portfolio/assests/you.com%20clone/03_bl2nzq.png";
+
+// rFleet supply chain management platform
+const rFleet_01 =
+  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732992697/portfolio/assests/rFleet/01_yuznx4.png";
+const rFleet_02 =
+  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732992695/portfolio/assests/rFleet/02_soz3rk.png";
+const rFleet_03 =
+  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732992971/portfolio/assests/rFleet/03_ctbdgt.png";
+const rFleet_04 =
+  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732992971/portfolio/assests/rFleet/04_q5ath8.png";
+
+const mendable_chatbot_01 =
+  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732995073/portfolio/assests/mendable-ai/01_fhodqj.png";
+
 export {
   ProfilePic,
   //Testmonials
@@ -119,4 +146,23 @@ export {
   Fmcms_5,
   Fmcms_6,
   Fmcms_7,
+
+  // HornChat
+  HornChat_1,
+  HornChat_2,
+
+  // YOU.com clone
+  You_com_01,
+  You_com_02,
+  You_com_03,
+  You_com_04,
+
+  // rFleet
+  rFleet_01,
+  rFleet_02,
+  rFleet_03,
+  rFleet_04,
+
+  // Mendable
+  mendable_chatbot_01,
 };

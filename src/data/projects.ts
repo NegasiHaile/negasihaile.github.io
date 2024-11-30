@@ -28,9 +28,21 @@ import {
   Fmcms_5,
   Fmcms_6,
   Fmcms_7,
+  HornChat_1,
+  HornChat_2,
+  You_com_01,
+  You_com_02,
+  You_com_03,
+  You_com_04,
+  rFleet_01,
+  rFleet_02,
+  rFleet_03,
+  rFleet_04,
+  mendable_chatbot_01,
 } from "../utils/images";
 
 export const projects = [
+  // "Continues Glucose Monitoring (CGM)"
   {
     id: 1,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
@@ -49,6 +61,7 @@ export const projects = [
     images: [AGP_1, AGP_3, AGP_4, AGP_5, AGP_6, AGP_7],
   },
 
+  // "Deiabets Intervention System"
   {
     id: 2,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
@@ -76,6 +89,7 @@ export const projects = [
     ],
   },
 
+  // Afro Chest X-ray
   {
     id: 3,
     category: "Data Science", // Web, Mobile, Data, Machine Learning,
@@ -98,6 +112,8 @@ export const projects = [
       Afro_CXR_6,
     ],
   },
+
+  // rFleet International Shipment
   {
     id: 0,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
@@ -111,13 +127,15 @@ export const projects = [
     status: "Done",
     start_at: "2023-04",
     end_at: "2024-04",
-    images: [],
+    images: [rFleet_01, rFleet_02, rFleet_03, rFleet_04],
   },
+
+  // DEMER Healthcare HR
   {
     id: 4,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
     sub_category: "Health", // Health, E-commerce, Real Estate
-    title: "DEMER Healthcare HR",
+    title: "DEMER HR",
     description: `Healthcare Human Resource Management System is a comprehensive solution designed to streamline the operations of healthcare institutions. It centralizes key processes such as patient management, inventory tracking, billing, and staff scheduling, enabling seamless coordination across departments. The system enhances operational efficiency by integrating modules for electronic medical records (EMR), appointment scheduling, and financial management. It provides real-time data insights, aiding in informed decision-making and compliance with healthcare regulations. With features tailored for the healthcare industry, this ERP system ensures improved patient care, optimized resource utilization, and robust administrative control, making it an essential tool for modern healthcare institutions.`, // Put what this project do, and what problem it solve
     pinned: true, // true/false
     tech_stack: ["NestJS", "ReactJS", "PostgreSQL", "GraphQL"],
@@ -129,6 +147,7 @@ export const projects = [
     images: [],
   },
 
+  // FMCMS
   {
     id: 5,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
@@ -145,13 +164,14 @@ export const projects = [
     images: [Fmcms_1, Fmcms_2, Fmcms_3, Fmcms_4, Fmcms_5, Fmcms_6, Fmcms_7],
   },
 
+  // EthioAI Hub
   {
     id: 6,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
     sub_category: "AI Hub", // Health, E-commerce, Real Estate
     title: "EthioAI Hub",
     description: `EthioAI HUB is a comprehensive web platform dedicated to archiving and preserving AI-related works from Ethiopia. The platform serves as a centralized repository for Machine Learning models, datasets, research papers, and other resources related to Artificial Intelligence within the Ethiopian context. The goal of the HUB is to document and showcase the growing body of AI research and innovation emerging from Ethiopia, while also making these resources easily accessible to researchers, students, and AI practitioners both locally and internationally. Whether you're looking for datasets in Amharic, Tigrinya, and Oromo languages, or seeking cutting-edge AI models trained for Ethiopian-specific challenges, EthioAI HUB is your go-to resource for exploring the diverse and impactful AI developments coming out of Ethiopia.`, // Put what this project do, and what problem it solve
-    pinned: true, // true/false
+    pinned: false, // true/false
     tech_stack: ["NextJS", "TailwinddCSS"],
     demo: "https://negasihaile.github.io/ethioai-hub/",
     git: `https://github.com/NegasiHaile/ethioai-hub`,
@@ -159,5 +179,53 @@ export const projects = [
     start_at: "2023-04",
     end_at: "2024-04",
     images: [],
+  },
+
+  {
+    id: 7,
+    category: "Web Application",
+    sub_category: "Chat bot",
+    title: "HornChat",
+    description: `HornChat is a chatbot built with a combination of Large Language Models(LLM) and Translation Systems to solve the linguistic barriers of low-resource languages specifically Horn of Africa languages. Our mission is to provide a seamless assistance for users to communicate with Large Language Models like ChatGPT using their language.`,
+    pinned: true,
+    tech_stack: ["OpenAI", "Lesan.ai", "Chatbot UI"],
+    demo: "https://horn-chat.vercel.app",
+    git: `https://github.com/NegasiHaile/HornChat`,
+    status: "Done",
+    start_at: "2023-08",
+    end_at: "2023-11",
+    images: [HornChat_1, HornChat_2],
+  },
+
+  {
+    id: 8,
+    category: "Web Application",
+    sub_category: "Chat bot",
+    title: "You.com Clone",
+    description: `This project is a clone of YOU.com, built with Next.js 14 and Tailwind CSS. The purpose of this project is to learn how to build a modern chatbot, explore the new features introduced in Next.js 14, gain hands-on experience with Tailwind CSS, and integrate the OpenAI API to create an intelligent search experience.`,
+    pinned: false,
+    tech_stack: ["GPT API", "Next 14"],
+    demo: "",
+    git: `https://github.com/NegasiHaile/you.com-clone`,
+    status: "Done",
+    start_at: "2023-08",
+    end_at: "2023-11",
+    images: [You_com_01, You_com_02, You_com_03, You_com_04],
+  },
+
+  {
+    id: 9,
+    category: "Web Application",
+    sub_category: "Chat bot",
+    title: "NEAR Chatbot",
+    description: `This is chatbot for NEAR using the MendableAI API. NEAR is a user-friendly and carbon-neutral blockchain, built to be fast, secure, and able to grow without limits. NEAR is the blockchain for everyone.`,
+    pinned: false,
+    tech_stack: ["Mendable AI", "ai", "Next 13"],
+    demo: "https://mendable-chatbot.vercel.app/",
+    git: `https://github.com/NegasiHaile/mendableai-chatbot`,
+    status: "Done",
+    start_at: "2023-08",
+    end_at: "2023-11",
+    images: [mendable_chatbot_01],
   },
 ];

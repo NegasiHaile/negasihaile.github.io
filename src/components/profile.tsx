@@ -20,7 +20,7 @@ const Profile = () => {
 
       <div className="w-full flex justify-center">
         <div
-          className=" w-32 h-40 md:w-[280px] md:h-[335px] flex justify-center items-center rounded-lg bg-cover bg-center"
+          className=" w-36 h-48 md:w-[280px] md:h-[335px] flex justify-center items-center rounded-lg bg-cover bg-center"
           style={{
             backgroundImage: `url(${ProfilePic})`,
           }}
@@ -29,7 +29,7 @@ const Profile = () => {
       <div className="flex w-full md:justify-center">
         <div className=" row-start-3 w-fit space-y-2 md:space-y-5 md:py-5 items-center px-3">
           {social_accounts.map((account, i) => {
-            if (i > 4) return null;
+            // if (i > 4) return null;
             return (
               <Link
                 key={i}

@@ -39,7 +39,7 @@ const ImagesSlider = ({ images }: TestmonialPropsTypes) => {
     <div className="relative w-full m-auto overflow-hidden">
       <button
         onClick={prevSlide}
-        className="top-1/2 absolute bg-black/10 text-black/60 p-2 rounded-r-sm left-0 z-10"
+        className="top-1/2 absolute bg-black/40 text-white/85 p-2 rounded-r-sm left-0 z-10"
       >
         <IconLeftArrow className="size-3 md:size-5" />
       </button>
@@ -52,21 +52,10 @@ const ImagesSlider = ({ images }: TestmonialPropsTypes) => {
           alt="image"
           className="w-full h-full rounded"
         />
-
-        {/* <CldImage
-          src={
-            "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735652/portfolio/assests/fmcms/01_uuftzv.png"
-          }
-          alt=""
-          width="800"
-          height="0"
-          className="w-full h-full rounded"
-        /> */}
-        {/* <img src={images[currentIndex]} alt="Slide" className="slider-image" /> */}
       </div>
       <button
         onClick={nextSlide}
-        className="top-1/2 absolute bg-black/10 text-black/60 p-2 rounded-l-sm right-0 z-10"
+        className="top-1/2 absolute bg-black/40 text-white/85 p-2 rounded-l-sm right-0 z-10"
       >
         <RightArrow className="size-3 md:size-5" />
       </button>

@@ -70,7 +70,7 @@ const Home = () => {
         {/* WELCOME SECTION */}
         <div className="flex flex-col md:flex-row md:justify-between items-center py-2 border-b w-full">
           <p className="text-sm opacity-85 text-center">
-            Full-stck Dev&apos; & Data Scientist | Digital Healthcare Solutions
+            Full-stack Dev&apos; & Data Scientist | Digital Healthcare Solutions
             | Health AI
           </p>
           {/* <p className="font-bold text-2xl">Negasi Haile A.</p> */}
@@ -78,44 +78,24 @@ const Home = () => {
 
         {/* PROFILE SECTIONS*/}
         <div className="space-y-5">
-          <p className="text-justify">
-            A full-stack developer with 5 years of experience, played a key role
-            in developing enterprise-level applications, including digital
-            health solutions like
+          <p className="md:text-justify">
+            A full-stack developer with 5 years of experience, I&apos;ve played
+            a key role in developing enterprise-level applications including
+            digital health solutions like
             <b> Continuous Glucose Monitoring (CGM)</b>, visualization with
             <b> Ambulatory Glucose Profile (AGP)</b> report,
-            <b> Diabetes Intervention System </b> and healthcare data server
-            management dashboard. And, as a data scientist, my experience
-            involves processing radiology data such as X-ray, CT, and MRI,
-            creating baseline ML models, and evaluating translation systems with
-            a patient discharge prescription. This exposure has motivated me to
-            focus on digital healthcare transformation and AI solutions.
+            <b> Diabetes Intervention System </b> and
+            <b> healthcare data server management dashboard </b>. And, as a data
+            scientist, my experience involves processing medical data such as
+            <b> X-ray, CT, and MRI </b>, creating<b> baseline ML models </b>,
+            and evaluating translation systems with a patient discharge
+            prescription. This exposure has motivated me to focus on digital
+            healthcare transformation and AI solutions.
             <br />
             <br />
-            👯 I&apos;m obsessed with exploring healthcare data and improve
-            patient outcomes!
-            {/* I&apos;m passionate about leveraging data and technology to
-            revolutionize healthcare and improve patient outcomes. */}
+            I&apos;m obsessed with exploring healthcare data and improve patient
+            outcomes!
           </p>
-
-          {/* <ul className="list-disc space-y-2 pl-10">
-            {list.map((listItem, i) => {
-              return (
-                <li key={`main_list_${i}`}>
-                  {listItem.description}
-                  {listItem?.sublists.length > 0 && (
-                    <ul className="list-disc space-y-2 pl-10">
-                      {listItem?.sublists.map((sublist, si) => (
-                        <li key={`sublist_${i}_${si}`}>
-                          {sublist.description}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </li>
-              );
-            })}
-          </ul> */}
         </div>
       </div>
 

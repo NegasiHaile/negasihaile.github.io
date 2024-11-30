@@ -27,16 +27,16 @@ export const social_accounts = [
     icon: <IconGoogleScholar />,
   },
   {
-    id: 4,
-    title: "UpWork",
-    link: "https://www.upwork.com/freelancers/~01556d2b924254de6d",
-    icon: <IconUpwork />,
-  },
-  {
     id: 5,
     title: "Twitter",
     link: "https://x.com/NegasiHaileA",
     icon: <IconX />,
+  },
+  {
+    id: 4,
+    title: "UpWork",
+    link: "https://www.upwork.com/freelancers/~01556d2b924254de6d",
+    icon: <IconUpwork />,
   },
   {
     id: 6,

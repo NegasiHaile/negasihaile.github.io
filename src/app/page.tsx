@@ -64,9 +64,9 @@ const Home = () => {
 
   const pinnedPublications = publications.filter((project) => project.pinned);
   return (
-    <div className="w-full">
+    <div className="w-full space-y-5">
       {/* OVERVIEW */}
-      <div className="md:border rounded md:p-5 pb-10 space-y-5 my-5">
+      <div className="md:border rounded md:p-5 pb-10 space-y-5">
         {/* WELCOME SECTION */}
         <div className="flex flex-col md:flex-row md:justify-between items-center py-2 border-b w-full">
           <p className="text-sm opacity-85 text-center">
@@ -100,7 +100,7 @@ const Home = () => {
       </div>
 
       {/* PINNED SECTIONS */}
-      <div className="w-full space-y-2 my-5">
+      <div className="w-full space-y-2">
         <div className="flex justify-between items-center">
           <p className="uppercase font-bold">Pinned Projects</p>
           <Link
@@ -115,7 +115,7 @@ const Home = () => {
       </div>
 
       {/* PINNED PUBLICATIONS */}
-      <div className="w-full space-y-2 my-10">
+      <div className="w-full space-y-2">
         <div className="flex justify-between items-center">
           <p className="uppercase font-bold">Pinned Publications</p>
           <Link

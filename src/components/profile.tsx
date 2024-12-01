@@ -6,7 +6,7 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <div className="w-full md:w-1/4 my-5 flex justify-center md:block">
+    <div className="w-full md:w-1/4 flex justify-center md:block">
       {/* IMAGE */}
       {/* <div className="w-full flex justify-center  rounded-lg">
         <Image

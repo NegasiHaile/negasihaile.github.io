@@ -75,7 +75,7 @@ export default function RootLayout({
       >
         <div className="w-full px-5 h-full sm:w-[90%] md:w-[95%] lg:w-[75%] font-[var(--font-geist-sans)]">
           <NavBar />
-          <div className="w-full block md:flex space-y-5 md:space-y-0 md:space-x-5">
+          <div className="w-full block md:flex space-y-5 md:space-y-0 md:space-x-5 md:py-5">
             <Profile />
             <main className="w-full pb-y0">
               {children}

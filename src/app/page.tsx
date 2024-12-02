@@ -81,7 +81,7 @@ const Home = () => {
           <p className="md:text-justify">
             A full-stack developer with 5 years of experience, played a key role
             in developing enterprise-level digital health solutions like
-            <b> Continuous Glucose Monitoring (CGM)</b>, visualization with
+            <b> Continuous Glucose Monitoring (CGM)</b> data visualization with
             <b> Ambulatory Glucose Profile (AGP)</b> report,
             <b> Diabetes Intervention System</b>,
             <b> healthcare data server management dashboard</b>, and others

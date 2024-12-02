@@ -22,7 +22,7 @@ export const social_accounts = [
   },
   {
     id: 3,
-    title: "Google Scholar",
+    title: "G-Scholar",
     link: "https://scholar.google.com/citations?user=mt44ErMAAAAJ&hl=en",
     icon: <IconGoogleScholar />,
   },

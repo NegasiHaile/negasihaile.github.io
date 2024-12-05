@@ -80,22 +80,23 @@ const Home = () => {
         <div className="space-y-5">
           <p className="md:text-justify">
             A full-stack developer with 5 years of experience, played a key role
-            in developing enterprise-level digital health solutions like
-            <b> Continuous Glucose Monitoring (CGM)</b> data visualization with
-            <b> Ambulatory Glucose Profile (AGP)</b> report,
-            <b> Diabetes Intervention System</b>,
-            <b> healthcare data server management dashboard</b>, and others
-            including ERP systms, supply chain and shipment logistics softwares.
-            And, as a data scientist, my experience involves processing medical
-            data such as
-            <b> X-ray, CT, and MRI </b>, creating<b> baseline ML models </b>,
-            and evaluating translation systems with a patient discharge
-            prescription. This exposure has motivated me to focus on digital
-            healthcare transformation and AI solutions.
-            <br />
-            <br />
-            I&apos;m obsessed with exploring healthcare data and improve patient
-            outcomes!
+            in developing enterprise-level<b> digital health solutions </b>
+            (implemented<i> Continuous Glucose Monitoring (CGM) </i>data
+            visualization with<i> Ambulatory Glucose Profile (AGP) </i>report,
+            <i>
+              {" "}
+              Diabetes Intervention System, healthcare data server management
+            </i>{" "}
+            dashboard),
+            <b> ERP systems</b>, and<b> supply chain and shipment logistics </b>
+            software. As a data scientist, my experience involves processing
+            medical data (X-ray, CT, and MRI), creating baseline ML models, and
+            evaluating translation systems with a patient discharge
+            prescription.
+            {/* <br />
+            <br /> */}
+            {/* I&apos;m obsessed with exploring healthcare data and improve patient
+            outcomes! */}
           </p>
         </div>
       </div>

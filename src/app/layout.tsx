@@ -22,12 +22,12 @@ const geistMono = localFont({
 export const metadata = {
   title: "Negasi Haile",
   description:
-    "Negasi Haile, Full-stack Developer, Data Scientist, Digital Healthcare Transformation, AI solutions",
+    "Negasi Haile, Data Scientist, Full-stack Developer, Digital Healthcare Transformation, AI for Health",
   openGraph: {
     title: "Negasi Haile",
     description:
-      "Negasi Haile, Full-stack Developer, Data Scientist, Digital Healthcare Transformation, AI solutions",
-    url: "https://www.negasahaile.com", // Change to your site's URL
+      "Negasi Haile, Data Scientist, Full-stack Developer, Digital Healthcare Transformation, AI for Health",
+    url: "https://negasihaile.github.io/negasihaile/", // Change to your site's URL
     images: ["/images/twitter-card.jpg"], // Provide a proper OG image for better social sharing
     type: "website",
   },

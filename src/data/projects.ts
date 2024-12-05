@@ -236,7 +236,7 @@ export const projects = [
     title: "Error Analysis of ti-en MT systems",
     description: `A dataset for the research project “ERROR ANALYSIS OF TIGRINYA–ENGLISH MACHINE TRANSLATION SYSTEMS”. In this project, we evaluated the status of three state-of-the-art MT systems that support the translation of Tigrinya to and from English: Google translate, Microsoft translator, and Lesan. Tigrinya is a language spoken by 10+ million people.`,
     pinned: false,
-    tech_stack: ["Mendable AI", "ai", "Next 13"],
+    tech_stack: ["MQM-DQF", "Lesan", "Google-T", "Microsoft-T"],
     demo: "https://github.com/NegasiHaile/error-analysis-of-TI-EN-MT-systems",
     git: `https://github.com/NegasiHaile/error-analysis-of-TI-EN-MT-systems`,
     status: "Done",

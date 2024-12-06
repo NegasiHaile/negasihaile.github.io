@@ -50,8 +50,8 @@ export interface PostSectionTypes {
   id: number;
   title: string | JSX.Element;
   description: string | JSX.Element;
-  list: string[] | JSX.Element[];
-  images: string[];
+  list?: string[] | JSX.Element[];
+  images?: string[];
 }
 export interface PostTypes {
   id: number;
@@ -61,5 +61,5 @@ export interface PostTypes {
   title: string;
   thumbnail: string;
   sub_title: string;
-  sections: PostSectionTypes[] | {};
+  sections: PostSectionTypes[] | [];
 }

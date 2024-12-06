@@ -38,6 +38,9 @@ So, if you are eager to solve a problem you are passionate about while enjoying 
             a big mistake because…
           </>
         ),
+
+        list: [],
+        images: [],
       },
 
       {
@@ -57,6 +60,8 @@ So, if you are eager to solve a problem you are passionate about while enjoying 
             template you can steal for your own release notes.
           </>
         ),
+        list: [],
+        images: [],
       },
     ],
   },
@@ -138,6 +143,9 @@ So, if you are eager to solve a problem you are passionate about while enjoying 
             a big mistake because…
           </>
         ),
+
+        list: [],
+        images: [],
       },
 
       {
@@ -157,6 +165,9 @@ So, if you are eager to solve a problem you are passionate about while enjoying 
             template you can steal for your own release notes.
           </>
         ),
+
+        list: [],
+        images: [],
       },
     ],
   },

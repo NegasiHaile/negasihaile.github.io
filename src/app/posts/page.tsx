@@ -9,7 +9,7 @@ const Posts = () => {
         <div className="space-y-10">
           {posts.map((post, i) => {
             if (post.display === false) return null;
-            return <PostCard index={i} post={post} />;
+            return <PostCard key={i} index={i} post={post} />;
           })}
         </div>
       ) : (

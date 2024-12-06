@@ -81,13 +81,9 @@ const Home = () => {
           <p className="md:text-justify">
             A full-stack developer with 5 years of experience, played a key role
             in developing enterprise-level<b> digital health solutions </b>
-            (implemented<i> Continuous Glucose Monitoring (CGM) </i>data
-            visualization with<i> Ambulatory Glucose Profile (AGP) </i>report,
-            <i>
-              {" "}
-              Diabetes Intervention System, healthcare data server management
-            </i>{" "}
-            dashboard),
+            (implemented data visualization with Ambulatory Glucose Profile
+            (AGP) report, Diabetes Intervention System, healthcare data server
+            management dashboard),
             <b> ERP systems</b>, and<b> supply chain and shipment logistics </b>
             software. As a data scientist, my experience involves processing
             medical data (X-ray, CT, and MRI), creating baseline ML models, and

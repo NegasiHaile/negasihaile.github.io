@@ -13,7 +13,7 @@ const PostCard = ({ index, post }: PostCardProps) => {
       <div className="space-y-0">
         <Link
           href={`posts/${post.id}`}
-          className="font-bold text-3xl text-blue-400 my-0"
+          className="font-bold text-3xl text-blue-500 hover:underline my-0"
         >
           {post.title}
         </Link>

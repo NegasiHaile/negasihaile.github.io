@@ -14,7 +14,7 @@ const Publication = ({ publication }: PuclicationPropsTypes) => {
         <Link
           target="_blank"
           href={publication.paper_link}
-          className="flex items-center space-x-2 text-lg text-blue-500 hover:text-blue-700 dark:opacity-65"
+          className="flex items-center space-x-2 text-lg text-blue-500 hover:underline"
         >
           {/* <IconMoniter className="size-6 text-gray-500" /> */}
           <span>{publication.title}</span>

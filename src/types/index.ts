@@ -45,3 +45,21 @@ export interface PublicationTypes {
   other_links: other_linksType[] | [];
   pinned?: boolean;
 }
+
+export interface PostSectionTypes {
+  id: number;
+  title: string | JSX.Element;
+  description: string | JSX.Element;
+  list: string[] | JSX.Element[];
+  images: string[];
+}
+export interface PostTypes {
+  id: number;
+  date: string;
+  category: string;
+  display: boolean;
+  title: string;
+  thumbnail: string;
+  sub_title: string;
+  sections: PostSectionTypes[] | {};
+}

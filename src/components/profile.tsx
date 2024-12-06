@@ -20,7 +20,7 @@ const Profile = () => {
 
       <div className="w-fit md:w-full flex justify-center">
         <div
-          className=" w-36 h-48 md:w-[280px] md:h-[335px] flex justify-center items-center rounded-lg bg-cover bg-center"
+          className=" w-36 h-48 md:w-[250px] md:h-[305px] flex justify-center items-center rounded-lg bg-cover bg-center"
           style={{
             backgroundImage: `url(${ProfilePic})`,
           }}

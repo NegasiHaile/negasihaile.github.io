@@ -22,7 +22,7 @@ const PostCard = ({ index, post }: PostCardProps) => {
       </div>
 
       <div className="block lg:flex justify-between w-full space-y-3 lg:space-y-0 lg:space-x-5">
-        <p className=" text-justify">{post.sub_title}</p>
+        <p className=" text-justify text-lg leading-7">{post.sub_title}</p>
         {post.thumbnail && (
           <Image
             src={post.thumbnail}

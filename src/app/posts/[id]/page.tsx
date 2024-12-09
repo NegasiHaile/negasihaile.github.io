@@ -1,4 +1,5 @@
 import { posts } from "@/data/posts";
+import Link from "next/link";
 import React from "react";
 
 const Post = async ({ params }: { params: Promise<{ id: string }> }) => {
@@ -6,7 +7,7 @@ const Post = async ({ params }: { params: Promise<{ id: string }> }) => {
   const post_detail = posts.filter(
     (item) => item.id.toString() === rwo_params.id
   );
-  const post = post_detail.length > 0 ? post_detail[0] : null;
+  const post = post_detail.length > 0 ? post_detail[0] : false;
 
   return (
     <div className="space-y-5">
@@ -49,8 +50,16 @@ const Post = async ({ params }: { params: Promise<{ id: string }> }) => {
           </div>
         </div>
       ) : (
-        <div className="w-full mt-12">
-          <p className="text-2xl">Oops! Post doesn't exist</p>
+        <div className="w-full h-full space-y-6 mt-20">
+          <p className="text-4xl text-center">Oops! Post doesn’t exist</p>
+          <div className="w-full flex justify-center">
+            <Link
+              href={"/posts"}
+              className="border rounded px-6 py-2 hover:opacity-60"
+            >
+              Find other posts
+            </Link>
+          </div>
         </div>
       )}
     </div>

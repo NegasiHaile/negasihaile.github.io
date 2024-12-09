@@ -1,5 +1,4 @@
 import { posts } from "@/data/posts";
-import Image from "next/image";
 import React from "react";
 
 const Post = async ({ params }: { params: { id: number } }) => {

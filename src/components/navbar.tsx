@@ -35,7 +35,7 @@ const NavBar = () => {
       <div className="flex w-full justify-center md:justify-start">
         <div className="flex w-fit items-center space-x-1">
           <IconHome className="size-7" />
-          <Link href={"/"} about="negasihaile" className="font-bold text-2xl">
+          <Link href={"/"} about="negasihaile" className="font-bold text-3xl">
             Negasi Haile A.
           </Link>
         </div>

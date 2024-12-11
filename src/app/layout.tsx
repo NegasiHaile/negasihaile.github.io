@@ -1,10 +1,9 @@
 import localFont from "next/font/local";
-import "./globals.css";
 import NavBar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Head from "next/head"; // Import Head for managing meta tags
 import Profile from "@/components/profile";
-
+import "./globals.css";
 // Local fonts
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

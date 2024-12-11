@@ -45,22 +45,28 @@ So, if you are eager to solve a problem you are passionate about while enjoying 
 
       {
         id: 2,
-        title: <>Release notes are an opportunity.</>,
+        title: <>Step 1. Research market trends</>,
         description: (
           <>
-            They’re an opportunity to keep your customers excited about their
-            investment in your product. They can drive adoption of new features
-            and functionality, reduce concerns about bugs or known issues, and
-            even be a powerful marketing tool.
+            People find inspiration for startup ideas from various sources. For
+            instance, the founders of Airbnb and Uber decided to build a startup
+            after personally facing an inconvenience. Stripe was developed to
+            address inefficiencies in online payments, Slack started as an
+            internal tool within a company, and SpaceX grew from a passion.{" "}
             <br />
-            <br />
-            In this article, we’ll look at what release notes are, who should
-            write them, and how you and your users benefit from good release
-            notes. And don’t worry, we’ll be diving into real examples and a
-            template you can steal for your own release notes.
+            <br /> Yet, even if you’re confident that your idea is exactly what
+            the world needs, it won’t hurt to double-check. This step is also
+            helpful if you don’t have a specific idea yet, as it will help you
+            identify opportunities for a successful startup. <br />
+            <br /> Here’s what to do:
           </>
         ),
-        list: [],
+        list: [
+          "Look for emerging demands and anticipate where the market is heading;",
+          "Understand what products and services are gaining popularity and why;",
+          "Analyze for areas where consumer needs are not being fully met;",
+          "Identify products and services the demand for which is fading to avoid investing in those areas.",
+        ],
         images: [],
       },
     ],

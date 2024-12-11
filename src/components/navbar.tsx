@@ -21,11 +21,10 @@ const NavBar = () => {
       route: "/publications",
       icon: <IconBook />,
     },
-
     {
-      id: 1,
-      title: "Posts",
-      route: "/posts",
+      id: 2,
+      title: "Blogs",
+      route: "/blogs",
       icon: <IconMicrophone />,
     },
   ];

@@ -14,7 +14,7 @@
     "@mdx-js/loader": "^3.1.0",
     "@next/mdx": "^15.1.0",
     "@types/mdx": "^2.0.13",
-    "next": "15.0.2",
+    "next": "^15.1.0",
     "next-mdx-remote": "^5.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

@@ -3,7 +3,7 @@ import { NextConfig } from "next";
 
 /** @type {import('next').NextConfig} */
 const nextConfig: NextConfig = {
-  output: "standalone",
+  output: "export",
   basePath: "/negasihaile",
   /* config options here */
   images: {

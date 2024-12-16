@@ -79,20 +79,22 @@ const Home = () => {
         {/* PROFILE SECTIONS*/}
         <div className="space-y-5">
           <p className="md:text-justify">
-            A full-stack developer with 5 years of experience, played a key role
-            in developing enterprise-level<b> digital health solutions </b>
+            I&apos;m full-stack developer and Data Scicntist with 4 years of
+            experience, played a key role in developing enterprise-level
+            <b> digital health solutions </b>
             (implemented data visualization with Ambulatory Glucose Profile
             (AGP) report, Diabetes Intervention System, healthcare data server
-            management dashboard),
-            <b> ERP systems</b>, and<b> supply chain and shipment logistics </b>
-            software. As a data scientist, my experience involves processing
-            medical data (X-ray, CT, and MRI), creating baseline ML models, and
-            evaluating translation systems with a patient discharge
-            prescription.
-            {/* <br />
-            <br /> */}
-            {/* I&apos;m obsessed with exploring healthcare data and improve patient
-            outcomes! */}
+            management dashboard), and
+            <b> Healthcare ERP systems</b>. As a data scientist, my experience
+            involves processing medical data (X-ray, CT, and MRI), creating
+            baseline ML models, and evaluating translation systems with a
+            patient discharge prescription.
+            <br />
+            <br />
+            My primary interest lies in improving patient outcomes by
+            revolutionizing healthcare decision support through analyzing
+            healthcare data with advanced machine learning techniques and
+            digitalization solutions.
           </p>
         </div>
       </div>

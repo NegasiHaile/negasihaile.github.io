@@ -1,18 +1,20 @@
 ## Hi there 👋
 
 **🚀𝟓 𝐲𝐞𝐚𝐫𝐬 𝐨𝐟 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭 𝐅𝐮𝐥𝐥-𝐬𝐭𝐚𝐜𝐤 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐰𝐢𝐭𝐡 𝐞𝐱𝐩𝐞𝐫𝐭𝐢𝐬𝐞 𝐢𝐧:**
-👉 Converting UI/UX designs into React components,
-👉 Database, API, and System architecture design,
-👉 Canvas-based pixel manipulation (Chart JS) and data visualization,
-👉 Business automation AI systems development.
+
+- 👉 Converting UI/UX designs into React components,
+- 👉 Database, API, and System architecture design,
+- 👉 Canvas-based pixel manipulation (Chart JS) and data visualization,
+- 👉 Business automation AI systems development.
 
 **🚀𝐒𝐤𝐢𝐥𝐥𝐬**
-👉 Frontend: JavaScript, TypeScript, ReactJS, NextJS, VueJS, ChartJS, HTML
-👉 Backend: Node.js, Express.js, Nest.js, .NET core, RESful API, GraphQL,
-👉 Styling: CSS, Tailwind CSS, Material UI, Bootstrap, AntD
-👉 Database: SQL, PostgreSQL, MongoDB, Supabase, and, Firebase
-👉 DevOps: AWS, Azure, CI/CD, GitHub Actions, Docker, Kubernetes, and Vercel
-👉 ML Tools: Open AI API, LangChain, Hugging Face Transformers and LLaMA
+
+- 👉 Frontend: JavaScript, TypeScript, ReactJS, NextJS, VueJS, ChartJS, HTML
+- 👉 Backend: Node.js, Express.js, Nest.js, .NET core, RESful API, GraphQL,
+- 👉 Styling: CSS, Tailwind CSS, Material UI, Bootstrap, AntD
+- 👉 Database: SQL, PostgreSQL, MongoDB, Supabase, and, Firebase-
+- 👉 DevOps: AWS, Azure, CI/CD, GitHub Actions, Docker, Kubernetes, and Vercel
+- 👉 ML Tools: Open AI API, LangChain, Hugging Face Transformers and LLaMA
 
 <!-- I'm passionate about leveraging data to revolutionize healthcare decision support tools and improve patient outcomes. -->
 

@@ -29,7 +29,7 @@ export const publications = [
         scarce radiologists.
       </>
     ),
-    conference: `In Progress`,
+    conference: `ICML 2025`,
     status: "Paper Writing",
     start_at: "2022",
     end_at: "2024",

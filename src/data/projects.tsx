@@ -108,19 +108,17 @@ export const projects = [
         <br />
         <br />
         <b>In this project my role includes: </b>
-        <ul>
-          <li>• Leading the data collection team.</li>
-          <li>
-            • Preparing data collection guidelines based on the healthcare
-            institutions data management challenges.
-          </li>
-          <li>• Preprocessing and standardizing the data into final forms.</li>
-          <li>
-            • Developing annotation tools, creating annotation guidelines, and
-            training/assisting radiologists with the annotation process.
-          </li>
-          <li>• Analyzing the annotated data and creating a baseline model.</li>
-        </ul>
+        <p>• Leading the data collection team.</p>
+        <p>
+          • Preparing data collection guidelines based on the healthcare
+          institutions data management challenges.
+        </p>
+        <p>• Preprocessing and standardizing the data into final forms.</p>
+        <p>
+          • Developing annotation tools, creating annotation guidelines, and
+          training/assisting radiologists with the annotation process.
+        </p>
+        <p>• Analyzing the annotated data and creating a baseline model.</p>
         <br />
         <b>
           The dataset will be released very soon. We are currently writing the

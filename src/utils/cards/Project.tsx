@@ -47,7 +47,7 @@ const Project = ({ index, project }: ProjectProps) => {
 
         {/* CARD BODY */}
         <div className="line-clamp-4 dark:font-thin tracking-wider">
-          <p>{project.description}</p>
+          {project.description}
         </div>
 
         {/* CARD FOOTER */}

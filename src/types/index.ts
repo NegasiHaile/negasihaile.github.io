@@ -3,7 +3,7 @@ export interface ProjectType {
   category: string;
   sub_category: string;
   title: string;
-  description: string;
+  description: string | JSX.Element;
   pinned: boolean;
   tech_stack: string[];
   demo: string;

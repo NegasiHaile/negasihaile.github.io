@@ -29,7 +29,7 @@ const Footer = () => {
         <script
           type="text/javascript"
           id="clstr_globe"
-          src="//clustrmaps.com/globe.js?cl=ffffff&w=120&t=n&d=d8TZolWdey3PKPhW4zQr5P9Eo13CRY7aqhQDwreSp4Y"
+          src="//clustrmaps.com/globe.js?w=120&t=n&d=d8TZolWdey3PKPhW4zQr5P9Eo13CRY7aqhQDwreSp4Y"
         ></script>
       </div>
     </footer>

@@ -29,7 +29,7 @@ export const publications = [
         scarce radiologists.
       </>
     ),
-    conference: `In Progress`,
+    conference: `ICML 2025`,
     status: "Paper Writing",
     start_at: "2022",
     end_at: "2024",
@@ -67,13 +67,12 @@ export const publications = [
         LLM evaluation benchmarks.
       </>
     ),
-    conference: `ACL 2025`,
+    conference: `NAACL 2025`,
     status: "In Review",
     start_at: "2024",
     end_at: "2024",
     publication_date: `2025`,
-    paper_link:
-      "https://arxiv.org/abs/2411.05049#:~:text=Fufa%20Balcha%2C-,Negasi%20Haile%20Abadi,-%2C%20Henok%20Biadglign",
+    paper_link: "https://arxiv.org/abs/2411.05049",
     other_links: [],
     pinned: true,
   },

@@ -48,3 +48,20 @@ _Bachelor of Science Degree in Information Systems Mekelle, Ethiopia_
 
 - CGPA: 3.81
 - COURSES: Object Oriented Programming, Data Structure & Algorithm, Discrete Mathematics, Database Systems, Introduction to AI, Data Mining and Warehousing, and System Analysis and Design.
+
+<!--
+Hello [Recipient's Name],
+
+I'm glad to hear you're working in Digital Healthcare, an area I'm deeply interested in.
+
+My name is Negasi, and I’m a full-stack developer and data scientist with 4 years of experience. My recent work includes implementing the Ambulatory Glucose Profile report for CGM data visualization, designing a Diabetes Intervention System, and processing medical images (AfroCXR: the first public chest X-ray dataset in Africa) as well as glucose data. These experiences have further deepened my interest in Health AI and the transformation of digital healthcare.
+
+Currently, my primary focus is on specializing in Digital Healthcare Solutions and improving healthcare delivery.
+
+S0, If there are any related positions on your team or elsewhere that you could refer me to, I would greatly appreciate it.
+
+To learn more about my work, please visit my website: https://negasihaile.github.io/negasihaile/.
+
+Best regards,
+Negasi
+-->

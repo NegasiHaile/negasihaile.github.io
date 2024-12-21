@@ -2,14 +2,9 @@
 import { ProjectType } from "@/types";
 import Link from "next/link";
 import React, { useState } from "react";
-import {
-  IconArrowRipple,
-  IconExpand,
-  IconGitHub,
-  IconStart,
-  IconYoutube,
-} from "../icons";
+import { IconExpand, IconGitHub, IconStart, IconYoutube } from "../icons";
 import Modal from "../Popups/Modal";
+import IconMoniter from "../icons/IconMoniter";
 
 interface ProjectProps {
   index: number;
@@ -32,7 +27,7 @@ const Project = ({ index, project }: ProjectProps) => {
               href={project.demo || project.git}
               className="flex items-center text-blue-500 dark:text-blue-400 hover:underline"
             >
-              <IconArrowRipple className="w-5 h-5 mr-1" />
+              <IconMoniter className=" size-5 mt-1" />
               {project.title}
             </Link>
 
@@ -43,16 +38,16 @@ const Project = ({ index, project }: ProjectProps) => {
 
           <button
             type="button"
-            className="cursor-pointer hover:opacity-65"
+            className="cursor-pointer hover:opacity-65 flex items-center text-blue-500"
             onClick={() => setShowModal(true)}
           >
-            <IconExpand className="size-5" />
+            <IconExpand className="size-6" />
           </button>
         </div>
 
         {/* CARD BODY */}
         <div className="line-clamp-4 dark:font-thin tracking-wider">
-          <p>{project.description}</p>
+          {project.description}
         </div>
 
         {/* CARD FOOTER */}

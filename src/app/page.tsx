@@ -82,12 +82,13 @@ const Home = () => {
             I&apos;m full-stack developer and Data Scicntist with 4 years of
             experience in developing digital healthcare solutions and others
             enterprise-level applications. My recent work includes, Implementing
-            CGM data visualization with Ambulatory Glucose Profile (AGP) report,
+            Ambulatory Glucose Profile (AGP) report for CGM data visualization,
             Diabetes Intervention System, healthcare data server management
             dashboard, and Healthcare ERP systems. As a data scientist, my
-            experience involves processing medical data (X-ray, CT, and MRI),
-            creating baseline ML models, and evaluating translation systems with
-            a patient discharge prescription.
+            experience involves processing medical images (X-ray, CT, MRI),
+            LibreView glucose entries, creating baseline ML models, and
+            evaluating machine translation systems with a patient discharge
+            prescription.
             <br />
             <br />
             My primary interest lies in improving patient outcomes by

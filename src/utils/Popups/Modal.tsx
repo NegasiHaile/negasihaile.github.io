@@ -29,7 +29,7 @@ const Modal = ({ showModal, setShowModal, project }: ModalPropsType) => {
           </button>
         </div>
 
-        <div className="py-2 mt-5 text-justify">{project.description}</div>
+        <div className="py-2 mt-5">{project.description}</div>
 
         {project.images.length > 0 && (
           <div className="space-y-1">

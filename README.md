@@ -2,7 +2,7 @@
 
 **🚀I'm a 𝐅𝐮𝐥𝐥-𝐬𝐭𝐚𝐜𝐤 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐰𝐢𝐭𝐡 𝟓 𝐲𝐞𝐚𝐫𝐬 𝐨𝐟 𝐞𝐱𝐩𝐞𝐫𝐭𝐢𝐬𝐞 in:**
 
-- 👉 Converting UI/UX designs into React components,
+- 👉 Converting UI/UX designs into seamless user interfaces,
 - 👉 Database, API, and System architecture design,
 - 👉 Canvas-based pixel manipulation (Chart JS) and data visualization,
 - 👉 Business automation AI systems development.

@@ -66,12 +66,12 @@ const Home = () => {
   return (
     <div className="w-full space-y-5">
       {/* OVERVIEW */}
-      <div className="md:border rounded md:p-5 pb-10 space-y-5">
+      <div className="rounded pb-10 space-y-5">
         {/* WELCOME SECTION */}
         <div className="flex flex-col md:flex-row md:justify-between items-center py-2 border-b w-full">
           <p className="text-sm opacity-85 text-center">
-            Full-stack Dev&apos; & Data Scientist | Digital Healthcare Solutions
-            | Health AI
+            Software Engineer | Data Scientist | Digital Healthcare Solutions |
+            Health AI
           </p>
           {/* <p className="font-bold text-2xl">Negasi Haile A.</p> */}
         </div>
@@ -79,24 +79,43 @@ const Home = () => {
         {/* PROFILE SECTIONS*/}
         <div className="space-y-5">
           <p className="md:text-justify">
-            I&apos;m full-stack developer and Data Scicntist with 4 years of
-            experience in developing digital healthcare solutions and others
-            enterprise-level applications. My recent work includes, Implementing
-            Ambulatory Glucose Profile (AGP) report for CGM data visualization,
-            Diabetes Intervention System, healthcare data server management
-            dashboard, and Healthcare ERP systems. As a data scientist, my
-            experience involves processing medical images (X-ray, CT, MRI),
-            LibreView glucose entries, creating baseline ML models, and
-            evaluating machine translation systems with a patient discharge
-            prescription.
+            I'm a software engineer with 4 years of experience in developing
+            enterprise-level applications, mainly focused on digital healthcare
+            solutions. My recent work includes, Implementing Ambulatory Glucose
+            Profile (AGP) reports which visualize complex glucose data from CGM
+            devices, and building a Diabetes Intervention System, a healthcare
+            data server management dashboard, and an HR system for healthcare
+            institutions.
             <br />
             <br />
-            My primary interest lies in improving patient outcomes by
-            revolutionizing healthcare decision support through analyzing
-            healthcare data with advanced machine learning techniques and
-            digitalization solutions.
+            And, as a data scientist with more than 2 years of part-time
+            experience, my background includes processing medical images (X-ray,
+            CT, MRI) and radiology reports, visualizing glucose pattern
+            insights, and creating baseline models. Additionally, I evaluated
+            machine translation systems with patient discharge prescriptions and
+            provided feedback to improve system performance.
+            <br />
+            <br />
+            This exposure has deepened my interest in Digital Healthcare
+            Transformation to improve healthcare deliverability and
+            decision-support tools by analyzing complex healthcare data with
+            advanced machine learning techniques and digitalization solutions.
           </p>
         </div>
+      </div>
+
+      {/* TESTMONIAL */}
+      <div className="space-y-2">
+        <p className="font-bold uppercase">Upwork Testmonials</p>
+        <ImagesSlider
+          images={[
+            Testmonial_0,
+            Testmonial_1,
+            Testmonial_2,
+            Testmonial_3,
+            Testmonial_4,
+          ]}
+        />
       </div>
 
       {/* PINNED SECTIONS */}
@@ -129,20 +148,6 @@ const Home = () => {
         {pinnedPublications.map((item, i) => {
           return <Publication key={i} publication={item} />;
         })}
-      </div>
-
-      {/* TESTMONIAL */}
-      <div className="space-y-2">
-        <p className="font-bold uppercase">Upwork Testmonials</p>
-        <ImagesSlider
-          images={[
-            Testmonial_0,
-            Testmonial_1,
-            Testmonial_2,
-            Testmonial_3,
-            Testmonial_4,
-          ]}
-        />
       </div>
     </div>
   );

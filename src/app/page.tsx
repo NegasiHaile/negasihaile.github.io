@@ -66,9 +66,9 @@ const Home = () => {
   return (
     <div className="w-full space-y-5">
       {/* OVERVIEW */}
-      <div className="rounded pb-10 space-y-5">
+      <div className="rounded pb-10 space-y-3">
         {/* WELCOME SECTION */}
-        <div className="flex flex-col md:flex-row md:justify-between items-center py-2 border-b w-full">
+        <div className="flex flex-col md:flex-row md:justify-between items-center pb-2 border-b w-full">
           <p className="text-sm opacity-85 text-center">
             Software Engineer | Data Scientist | Digital Healthcare Solutions |
             Health AI
@@ -79,13 +79,13 @@ const Home = () => {
         {/* PROFILE SECTIONS*/}
         <div className="space-y-5">
           <p className="md:text-justify">
-            I'm a software engineer with 4 years of experience in developing
-            enterprise-level applications, mainly focused on digital healthcare
-            solutions. My recent work includes, Implementing Ambulatory Glucose
-            Profile (AGP) reports which visualize complex glucose data from CGM
-            devices, and building a Diabetes Intervention System, a healthcare
-            data server management dashboard, and an HR system for healthcare
-            institutions.
+            I&apos;m a software engineer with 4 years of experience in
+            developing enterprise-level applications, mainly focused on digital
+            healthcare solutions. My recent work includes, Implementing
+            Ambulatory Glucose Profile (AGP) reports which visualize complex
+            glucose data from CGM devices, and building a Diabetes Intervention
+            System, a healthcare data server management dashboard, and an HR
+            system for healthcare institutions.
             <br />
             <br />
             And, as a data scientist with more than 2 years of part-time

@@ -97,40 +97,11 @@ const Home = () => {
             <br />
             <br />
             This exposure has deepened my interest in Digital Healthcare
-            Transformation to improve healthcare deliverability and
-            decision-support tools by analyzing complex healthcare data with
-            advanced machine learning techniques and digitalization solutions.
+            Transformation. I aim to improve healthcare delivery and
+            decision-support tools by analyzing healthcare data with advanced
+            machine learning techniques and digitalization solutions.
           </p>
         </div>
-      </div>
-
-      {/* TESTMONIAL */}
-      <div className="space-y-2">
-        <p className="font-bold uppercase">Upwork Testmonials</p>
-        <ImagesSlider
-          images={[
-            Testmonial_0,
-            Testmonial_1,
-            Testmonial_2,
-            Testmonial_3,
-            Testmonial_4,
-          ]}
-        />
-      </div>
-
-      {/* PINNED SECTIONS */}
-      <div className="w-full space-y-2">
-        <div className="flex justify-between items-center">
-          <p className="uppercase font-bold">Pinned Projects</p>
-          <Link
-            href={"/projects"}
-            className="text-blue-500"
-            title="See all projects"
-          >
-            See all projects
-          </Link>
-        </div>
-        <ProjectsList display="pinned" />
       </div>
 
       {/* PINNED PUBLICATIONS */}
@@ -148,6 +119,35 @@ const Home = () => {
         {pinnedPublications.map((item, i) => {
           return <Publication key={i} publication={item} />;
         })}
+      </div>
+
+      {/* PINNED SECTIONS */}
+      <div className="w-full space-y-2">
+        <div className="flex justify-between items-center">
+          <p className="uppercase font-bold">Pinned Projects</p>
+          <Link
+            href={"/projects"}
+            className="text-blue-500"
+            title="See all projects"
+          >
+            See all projects
+          </Link>
+        </div>
+        <ProjectsList display="pinned" />
+      </div>
+
+      {/* TESTMONIAL */}
+      <div className="space-y-2">
+        <p className="font-bold uppercase">Upwork Testmonials</p>
+        <ImagesSlider
+          images={[
+            Testmonial_0,
+            Testmonial_1,
+            Testmonial_2,
+            Testmonial_3,
+            Testmonial_4,
+          ]}
+        />
       </div>
     </div>
   );

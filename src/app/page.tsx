@@ -97,8 +97,8 @@ const Home = () => {
             <br />
             <br />
             This exposure has deepened my interest in Digital Healthcare
-            Transformation. I aim to improve healthcare delivery and
-            decision-support tools by analyzing healthcare data with advanced
+            Transformation. I aim to improve healthcare delivery and physician
+            decision-making supports by analyzing healthcare data with advanced
             machine learning techniques and digitalization solutions.
           </p>
         </div>

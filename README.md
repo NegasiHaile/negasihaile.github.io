@@ -1,20 +1,18 @@
-## Hi there 👋
+## Hi 👋, I'm NEGASI.
 
-**🚀I'm a 𝐅𝐮𝐥𝐥-𝐬𝐭𝐚𝐜𝐤 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐰𝐢𝐭𝐡 𝟓 𝐲𝐞𝐚𝐫𝐬 𝐨𝐟 𝐞𝐱𝐩𝐞𝐫𝐭𝐢𝐬𝐞 in:**
+**🚀 A Software Developer And Datai Scientist 𝐰𝐢𝐭𝐡 4 𝐲𝐞𝐚𝐫𝐬 𝐨𝐟 𝐞𝐱𝐩𝐞𝐫𝐭𝐢𝐬𝐞 in:**
 
-- 👉 Converting UI/UX designs into seamless user interfaces,
-- 👉 Database, API, and System architecture design,
-- 👉 Canvas-based pixel manipulation (Chart JS) and data visualization,
-- 👉 Business automation AI systems development.
+👉 Business automation AI systems development.
+👉 Transforming complex datasets for machine learning and creating insightful visualizations.
+👉 Database design, API implementation, and transforming UI/UX designs into functional applications.
 
-**🚀𝐒𝐤𝐢𝐥𝐥𝐬**
+**🚀 𝐒𝐤𝐢𝐥𝐥𝐬**
 
-- 👉 Frontend: JavaScript, TypeScript, ReactJS, NextJS, VueJS, ChartJS, HTML
-- 👉 Backend: Node.js, Express.js, Nest.js, .NET core, RESful API, GraphQL,
-- 👉 Styling: CSS, Tailwind CSS, Material UI, Bootstrap, AntD
-- 👉 Database: SQL, PostgreSQL, MongoDB, Supabase, and, Firebase-
-- 👉 DevOps: AWS, Azure, CI/CD, GitHub Actions, Docker, Kubernetes, and Vercel
-- 👉 ML Tools: Open AI API, LangChain, Hugging Face Transformers and LLaMA
+👉 languages: Python, JavaScript, and C#
+👉 Development: Node.JS, ReactJS, VueJS, .NET core, and RESful API
+👉 Database: SQL, PostgreSQL, MySQL, and MongoDB
+👉 DevOps: AWS, Azure, Google Cloud, CI/CD, Docker, Kubernetes, and Vercel.
+👉 Data Science: Pandas, NumPy, Seaborn, NLTK, PyTorch, and Hugging Face Transformers.
 
 <!-- I'm passionate about leveraging data to revolutionize healthcare decision support tools and improve patient outcomes. -->
 

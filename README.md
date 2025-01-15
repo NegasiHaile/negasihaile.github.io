@@ -1,6 +1,6 @@
 ## Hi 👋, I'm NEGASI.
 
-**🚀 A Software Developer And Datai Scientist 𝐰𝐢𝐭𝐡 4 𝐲𝐞𝐚𝐫𝐬 𝐨𝐟 𝐞𝐱𝐩𝐞𝐫𝐭𝐢𝐬𝐞 in:**
+**🚀 A Software Developer And Data Scientist 𝐰𝐢𝐭𝐡 4 𝐲𝐞𝐚𝐫𝐬 𝐨𝐟 𝐞𝐱𝐩𝐞𝐫𝐭𝐢𝐬𝐞 in:**
 
 - 👉 Business automation AI systems development.
 - 👉 Transforming complex datasets for machine learning and creating insightful visualizations.

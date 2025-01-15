@@ -6,7 +6,7 @@ export default async function BlogsPage() {
   return (
     <div className="w-full">
       {blogs.length > 0 ? (
-        <div className="space-y-5">
+        <div className="space-y-8">
           {blogs.map((blog, i) => {
             if (blog.frontmatter.publicVisible === false) return null;
             return (
@@ -14,7 +14,7 @@ export default async function BlogsPage() {
                 <div className="space-y-0">
                   <Link
                     href={`/blogs/${blog.slug}`}
-                    className="font-bold text-lg text-blue-500 dark:text-blue-400 hover:underline my-0"
+                    className="font-bold text-2xl text-blue-500 dark:text-blue-400 hover:underline my-0"
                   >
                     {blog.frontmatter.title}
                   </Link>
@@ -23,7 +23,7 @@ export default async function BlogsPage() {
 
                 {blog.frontmatter.overview && (
                   <div className="block lg:flex justify-between w-full space-y-3 lg:space-y-0 lg:space-x-5">
-                    <p className="text-justify line-clamp-2">
+                    <p className="text-justify line-clamp-3">
                       {blog.frontmatter.overview}
                     </p>
                   </div>

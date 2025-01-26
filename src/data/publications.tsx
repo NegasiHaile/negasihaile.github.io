@@ -68,7 +68,7 @@ export const publications = [
       </>
     ),
     conference: `NAACL 2025`,
-    status: "In Review",
+    status: "Published",
     start_at: "2024",
     end_at: "2024",
     publication_date: `2025`,

@@ -1,10 +1,7 @@
 import {
   AGP_1,
   AGP_3,
-  AGP_4,
-  AGP_5,
   AGP_6,
-  AGP_7,
   // DiabetesInter_2,
   // DiabetesInter_4,
   // DiabetesInter_5,
@@ -125,6 +122,8 @@ export const projects = [
       Afro_CXR_6,
     ],
   },
+
+  // Ambulatory Glucose Profile (AGP) report
   {
     id: 1,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
@@ -140,7 +139,7 @@ export const projects = [
     status: "Done",
     start_at: "2023-04",
     end_at: "2024-04",
-    images: [AGP_1, AGP_3, AGP_4, AGP_5, AGP_6, AGP_7],
+    images: [AGP_1, AGP_3, AGP_6],
   },
 
   // rFleet International Shipment

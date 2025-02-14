@@ -43,23 +43,6 @@ import {
 
 export const projects = [
   // "Continues Glucose Monitoring (CGM)"
-  {
-    id: 1,
-    category: "Web Application", // Web, Mobile, Data, Machine Learning,
-    sub_category: "Health", // Health, E-commerce, Real Estate
-    title: "Continues Glucose Monitoring (CGM)",
-    description: `A web app project for Continuous Glucose Monitoring (CGM) data visualization with Ambulatory Glucose Profile (AGP) report focuses on leveraging glucose data to revolutionize diabetes management. It collects real-time glucose data from LibreView, providing actionable insights for patients and clinicians through visaulizing in charts. Key features include Time In Range (TIR) analysis, which highlights the percentage of time a patient’s glucose levels stay within the target range, and Glucose Metrics, offering statistical insights like average glucose and variability. The project also includes Ambulatory Glucose Profile (AGP) for visualizing glucose trends and patterns over 2 weeks (14 days) and Daily Glucose Profile, showcasing day-to-day glucose fluctuations. Together, these tools aim to enhance decision-making, optimize treatment, and improve overall diabetes care.`, // Put what this project do, and what problem it solve
-    pinned: true, // true/false
-    tech_stack: ["JavaScript", "ReactJS", "ChartJS"],
-    demo: "https://cgm-agp.vercel.app/",
-    git: "https://github.com/NegasiHaile/agp",
-    youtube:
-      "https://youtube.com/playlist?list=PLIgg_qVBmD-c-yU5_sNkhIO__9FrHLyFh&feature=shared",
-    status: "Done",
-    start_at: "2023-04",
-    end_at: "2024-04",
-    images: [AGP_1, AGP_3, AGP_4, AGP_5, AGP_6, AGP_7],
-  },
 
   // Afro Chest X-ray
   {
@@ -142,33 +125,22 @@ export const projects = [
       Afro_CXR_6,
     ],
   },
-
-  // "Deiabets Intervention System"
   {
-    id: 2,
+    id: 1,
     category: "Web Application", // Web, Mobile, Data, Machine Learning,
     sub_category: "Health", // Health, E-commerce, Real Estate
-    title: "Deiabets Intervention System",
-    description: `A Diabetes Intervention System is a cutting-edge healthcare solution designed to assist clinicians in making quick and informed decisions regarding patient care. The system streamlines the process of reviewing and updating patient medication by providing real-time insights and data-driven recommendations. Integrated with patient health records, it allows seamless tracking of glucose levels, medication history, and treatment outcomes. This tool enhances clinical efficiency, reduces decision-making time, and ensures personalized care. With its user-friendly interface and advanced analytics, it empowers healthcare providers to improve patient outcomes and support proactive diabetes management.`, // Put what this project do, and what problem it solve
+    title: "Ambulatory Glucose Profile (AGP) report",
+    description: `A web app project for Continuous Glucose Monitoring (CGM) data visualization with Ambulatory Glucose Profile (AGP) report focuses on leveraging glucose data to revolutionize diabetes management. It collects real-time glucose data from LibreView, providing actionable insights for patients and clinicians through visaulizing in charts. Key features include Time In Range (TIR) analysis, which highlights the percentage of time a patient’s glucose levels stay within the target range, and Glucose Metrics, offering statistical insights like average glucose and variability. The project also includes Ambulatory Glucose Profile (AGP) for visualizing glucose trends and patterns over 2 weeks (14 days) and Daily Glucose Profile, showcasing day-to-day glucose fluctuations. Together, these tools aim to enhance decision-making, optimize treatment, and improve overall diabetes care.`, // Put what this project do, and what problem it solve
     pinned: true, // true/false
-    tech_stack: ["C#", "SQL", "ReactJS", "FHIR"],
-    demo: "https://diabetes-intervention.vercel.app/",
-    git: ``,
+    tech_stack: ["JavaScript", "ReactJS", "ChartJS"],
+    demo: "https://cgm-agp.vercel.app/",
+    git: "https://github.com/NegasiHaile/agp",
+    youtube:
+      "https://youtube.com/playlist?list=PLIgg_qVBmD-c-yU5_sNkhIO__9FrHLyFh&feature=shared",
     status: "Done",
     start_at: "2023-04",
     end_at: "2024-04",
-    images: [
-      DiabetesInter_2,
-      DiabetesInter_4,
-      DiabetesInter_5,
-      DiabetesInter_6,
-      DiabetesInter_7,
-      DiabetesInter_9,
-      DiabetesInter_10,
-      DiabetesInter_11,
-      DiabetesInter_13,
-      DiabetesInter_14,
-    ],
+    images: [AGP_1, AGP_3, AGP_4, AGP_5, AGP_6, AGP_7],
   },
 
   // rFleet International Shipment

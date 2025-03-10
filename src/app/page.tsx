@@ -96,10 +96,11 @@ const Home = () => {
             provided feedback to improve system performance.
             <br />
             <br />
-            This exposure has deepened my interest in Digital Healthcare
-            Transformation. I aim to improve healthcare delivery and physician
-            decision-making supports by analyzing healthcare data with advanced
-            machine learning techniques and digitalization solutions.
+            This exposure has deepened my interest in
+            <b> Digital Healthcare Transformation</b>. I aim to improve
+            healthcare delivery and physician decision-making supports by
+            analyzing healthcare data with advanced machine learning techniques
+            and digitalization solutions.
           </p>
         </div>
       </div>

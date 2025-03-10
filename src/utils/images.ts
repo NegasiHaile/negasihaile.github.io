@@ -26,30 +26,6 @@ const AGP_6 =
 const AGP_7 =
   "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735640/portfolio/assests/cgm-agp/07_n7hfhu.png";
 
-// Diabetes Intervention
-const DiabetesInter_2 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735641/portfolio/assests/diabetes-intervention/02_auwwjh.png";
-const DiabetesInter_4 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735640/portfolio/assests/diabetes-intervention/04_tgh9wp.png";
-const DiabetesInter_5 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735641/portfolio/assests/diabetes-intervention/05_xlbhuh.png";
-const DiabetesInter_6 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735642/portfolio/assests/diabetes-intervention/06_sdnzwk.png";
-const DiabetesInter_7 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735643/portfolio/assests/diabetes-intervention/07_wxor4y.png";
-
-const DiabetesInter_9 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735642/portfolio/assests/diabetes-intervention/09_d1ycjd.png";
-
-const DiabetesInter_10 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735644/portfolio/assests/diabetes-intervention/10_uibks5.png";
-const DiabetesInter_11 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735645/portfolio/assests/diabetes-intervention/11_sqhw3f.png";
-const DiabetesInter_13 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735645/portfolio/assests/diabetes-intervention/13_vmy6sw.png";
-const DiabetesInter_14 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735644/portfolio/assests/diabetes-intervention/14_xtmhsj.png";
-
 // Afro Chest X-xray
 const Afro_CXR_1 =
   "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735642/portfolio/assests/afro-chest-x-ray/01_ki2xfz.png";
@@ -123,16 +99,16 @@ export {
   AGP_5,
   AGP_6,
   AGP_7,
-  DiabetesInter_2,
-  DiabetesInter_4,
-  DiabetesInter_5,
-  DiabetesInter_6,
-  DiabetesInter_7,
-  DiabetesInter_9,
-  DiabetesInter_10,
-  DiabetesInter_11,
-  DiabetesInter_13,
-  DiabetesInter_14,
+  // DiabetesInter_2,
+  // DiabetesInter_4,
+  // DiabetesInter_5,
+  // DiabetesInter_6,
+  // DiabetesInter_7,
+  // DiabetesInter_9,
+  // DiabetesInter_10,
+  // DiabetesInter_11,
+  // DiabetesInter_13,
+  // DiabetesInter_14,
   Afro_CXR_1,
   Afro_CXR_2,
   Afro_CXR_3,

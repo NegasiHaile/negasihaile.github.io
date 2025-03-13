@@ -134,8 +134,8 @@ export const projects = [
     tech_stack: ["JavaScript", "ReactJS", "ChartJS"],
     demo: "https://cgm-agp.vercel.app/",
     git: "https://github.com/NegasiHaile/agp",
-    youtube:
-      "https://youtube.com/playlist?list=PLIgg_qVBmD-c-yU5_sNkhIO__9FrHLyFh&feature=shared",
+    // youtube:
+    //   "https://youtube.com/playlist?list=PLIgg_qVBmD-c-yU5_sNkhIO__9FrHLyFh&feature=shared",
     status: "Done",
     start_at: "2023-04",
     end_at: "2024-04",

@@ -38,10 +38,10 @@ export const social_accounts = [
     link: "https://www.upwork.com/freelancers/~01556d2b924254de6d",
     icon: <IconUpwork />,
   },
-  {
-    id: 6,
-    title: "Youtube",
-    link: "https://www.youtube.com/@demercode",
-    icon: <IconYoutube />,
-  },
+  // {
+  //   id: 6,
+  //   title: "Youtube",
+  //   link: "https://www.youtube.com/@demercode",
+  //   icon: <IconYoutube />,
+  // },
 ];

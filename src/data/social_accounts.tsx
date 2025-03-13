@@ -4,7 +4,7 @@ import {
   IconLinkedIn,
   IconUpwork,
   IconX,
-  IconYoutube,
+  // IconYoutube,
 } from "@/utils/icons";
 
 export const social_accounts = [

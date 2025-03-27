@@ -9,7 +9,7 @@ type ProjectsProps = {
 const ProjectsList = ({ display }: ProjectsProps) => {
   const filteredProjects =
     display !== "all"
-      ? projects.filter((project) => {
+      ? projects.filter((project: ProjectType) => {
           return project[display as keyof ProjectType];
         })
       : projects;

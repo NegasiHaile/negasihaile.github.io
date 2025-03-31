@@ -29,7 +29,7 @@ export const publications = [
         scarce radiologists.
       </>
     ),
-    conference: `ICML 2025`,
+    conference: `NeurIPS 2025`,
     status: "Paper Writing",
     start_at: "2022",
     end_at: "2024",

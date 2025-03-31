@@ -4,7 +4,7 @@ import { NextConfig } from "next";
 /** @type {import('next').NextConfig} */
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/negasihaile",
+  // basePath: "/negasihaile",
   /* config options here */
   images: {
     unoptimized: true, // Disable image optimization (optional)

@@ -33,9 +33,9 @@ const NavBar = () => {
     <nav className="block justify-center md:flex md:justify-between items-center space-y-3 px-1 py-3 border-b mb-5">
       <div className="flex w-full justify-center md:justify-start">
         <div className="flex w-fit items-center space-x-1">
-          <IconHome className="size-7" />
+          <IconHome className="size-7 hidden md:block" />
           <Link href={"/"} about="negasihaile" className="font-bold text-3xl">
-            Negasi Haile A.
+            Negasi Haile
           </Link>
         </div>
       </div>

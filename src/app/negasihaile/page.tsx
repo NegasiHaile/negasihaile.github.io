@@ -12,56 +12,7 @@ import {
   Testmonial_4,
 } from "@/utils/images";
 
-const Home = () => {
-  // const list = [
-  //   {
-  //     description:
-  //       "✅ I’m a JavaScript full-stack developer and Data Scientist.",
-  //     sublists: [],
-  //   },
-  //   {
-  //     description:
-  //       "🌱 I focus on Web based AI Solutions and Digital Healthcare Transformation.",
-  //     sublists: [],
-  //   },
-  //   {
-  //     description: "🏋️ I’m currently working on Afro Chest X-ray dataset.",
-  //     sublists: [],
-  //   },
-  //   {
-  //     description:
-  //       "🏩 Previously I worked in Diabetes Intervention System, Visualizing Ambulatory Glucose profile, and Healthcare Data Managment Saas",
-  //     sublists: [],
-  //   },
-  //   {
-  //     description: "🛠️ Tech Stack:",
-  //     sublists: [
-  //       {
-  //         title: "Languages",
-  //         description:
-  //           "Python, C#, and JavaScript (React JS, Node JS, Express JS, Nest JS).",
-  //         sublists: [],
-  //       },
-  //       {
-  //         title: "Database",
-  //         description: "SQL, PostgreSQL, MySQL, and MongoDB.",
-  //         sublists: [],
-  //       },
-  //       {
-  //         title: "Cloud",
-  //         description: "Azure, Google Cloud, AWS.",
-  //         sublists: [],
-  //       },
-  //       {
-  //         title: "Data Science",
-  //         description:
-  //           "Pandas, NumPy, TensorFlow, PyTorch, Hugging Face Transformers.",
-  //         sublists: [],
-  //       },
-  //     ],
-  //   },
-  // ];
-
+const NegasiHaile = () => {
   const pinnedPublications = publications.filter((project) => project.pinned);
   return (
     <div className="w-full space-y-5">
@@ -154,4 +105,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default NegasiHaile;

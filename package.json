@@ -2,7 +2,7 @@
   "name": "negasihaile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://negasihaile.github.io/negasihaile",
+  "homepage": "https://negasihaile.github.io",
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",

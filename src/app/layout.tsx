@@ -21,11 +21,11 @@ const geistMono = localFont({
 export const metadata = {
   title: "Negasi Haile - Software Engineer, Data Scientist",
   description:
-    "Negasi Haile: Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
+    "Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
   openGraph: {
     title: "Negasi Haile",
     description:
-      "Negasi Haile: Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
+      "Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
     url: "https://negasihaile.github.io", // Change to your site's URL
     images: [
       "https://res.cloudinary.com/dshwnppvx/image/upload/v1732745596/portfolio/assests/portfolio_n7liaq.jpg",
@@ -36,7 +36,7 @@ export const metadata = {
     card: "Negasi Haile", // Use large image for Twitter cards
     title: "Negasi Haile",
     description:
-      "Negasi Haile: Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
+      "Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
     images: [
       "https://res.cloudinary.com/dshwnppvx/image/upload/v1732745596/portfolio/assests/portfolio_n7liaq.jpg",
     ], // Specify the image for Twitter cards

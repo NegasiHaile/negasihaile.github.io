@@ -19,23 +19,27 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Negasi Haile",
+  title: "Negasi Haile - Software Engineer, Data Scientist",
   description:
-    "Negasi Haile, Data Scientist, Full-stack Developer, Digital Healthcare Transformation, AI for Health",
+    "Negasi Haile: Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
   openGraph: {
     title: "Negasi Haile",
     description:
-      "Negasi Haile, Data Scientist, Full-stack Developer, Digital Healthcare Transformation, AI for Health",
-    url: "https://negasihaile.github.io/negasihaile/", // Change to your site's URL
-    images: ["/images/twitter-card.jpg"], // Provide a proper OG image for better social sharing
+      "Negasi Haile: Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
+    url: "https://negasihaile.github.io", // Change to your site's URL
+    images: [
+      "https://res.cloudinary.com/dshwnppvx/image/upload/v1732745596/portfolio/assests/portfolio_n7liaq.jpg",
+    ], // Provide a proper OG image for better social sharing
     type: "website",
   },
   twitter: {
     card: "Negasi Haile", // Use large image for Twitter cards
     title: "Negasi Haile",
     description:
-      "Negasi Haile, Full-stack Developer, Data Scientist, Digital Healthcare Transformation, AI solutions",
-    images: ["/images/twitter-card.jpg"], // Specify the image for Twitter cards
+      "Negasi Haile: Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
+    images: [
+      "https://res.cloudinary.com/dshwnppvx/image/upload/v1732745596/portfolio/assests/portfolio_n7liaq.jpg",
+    ], // Specify the image for Twitter cards
   },
   robots: "index, follow", // Ensure that search engines are allowed to index your page
 };

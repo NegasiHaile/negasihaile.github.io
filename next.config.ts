@@ -7,6 +7,25 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   // basePath: "/negasihaile",
   /* config options here */
+  redirects: async () => {
+    return [
+      {
+        source: "/negasihaile",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/negasihaile/", // Optional: Handle with trailing slash as well
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/negasi", // Optional: Handle with trailing slash as well
+        destination: "/",
+        permanent: true,
+      },
+    ];
+  },
   images: {
     unoptimized: true, // Disable image optimization (optional)
   },

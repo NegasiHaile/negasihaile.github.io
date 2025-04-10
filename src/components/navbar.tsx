@@ -3,12 +3,23 @@
 import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation"; // Import usePathname to get the current route
-import { IconBook, IconMicrophone, IconProjects } from "@/utils/icons";
+import {
+  IconBook,
+  IconMicrophone,
+  IconProjects,
+  IconClipbaordDocument,
+} from "@/utils/icons";
 import IconHome from "@/utils/icons/IconHome";
 
 const NavBar = () => {
   const pathname = usePathname(); // Use usePathname to get the current route
   const nav_items = [
+    {
+      id: 0,
+      title: "Resume",
+      route: "/resume",
+      icon: <IconClipbaordDocument />,
+    },
     {
       id: 0,
       title: "Projects",
@@ -43,7 +54,8 @@ const NavBar = () => {
       <div className="flex justify-center items-center text-sm">
         {nav_items.map((item, i) => {
           // Determine if the link is active by checking if the route matches the current path
-          const isActive = pathname === item.route; // Check if the current path matches the route
+          const isActive =
+            pathname === item.route || pathname === `${item.route}/`; // Check if the current path matches the route
 
           return (
             <Link

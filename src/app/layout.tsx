@@ -4,6 +4,7 @@ import Footer from "@/components/footer";
 import Head from "next/head"; // Import Head for managing meta tags
 import Profile from "@/components/profile";
 import "./globals.css";
+
 // Local fonts
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,7 +34,7 @@ export const metadata = {
     type: "website",
   },
   twitter: {
-    card: "Negasi Haile", // Use large image for Twitter cards
+    card: "summary_large_image", // Corrected Twitter card type
     title: "Negasi Haile",
     description:
       "Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
@@ -53,15 +54,14 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         {/* Title and Meta Tags */}
+        <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="robots" content={metadata.robots} />
         <meta property="og:title" content={metadata.openGraph.title} />
-        {
-          <meta
-            property="og:description"
-            content={metadata.openGraph.description}
-          />
-        }
+        <meta
+          property="og:description"
+          content={metadata.openGraph.description}
+        />
         <meta property="og:image" content={metadata.openGraph.images[0]} />
         <meta property="og:url" content={metadata.openGraph.url} />
         <meta property="og:type" content={metadata.openGraph.type} />
@@ -72,6 +72,29 @@ export default function RootLayout({
           content={metadata.twitter.description}
         />
         <meta name="twitter:image" content={metadata.twitter.images[0]} />
+        {/* Canonical Link */}
+        <link rel="canonical" href="https://negasihaile.github.io" />
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+        {/* Structured Data (JSON-LD) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Negasi Haile",
+              url: "https://negasihaile.github.io",
+              jobTitle: "Software Engineer & Data Scientist",
+              description:
+                "Software Engineer & Data Scientist focused on digital healthcare, AI, and enterprise solutions.",
+              sameAs: [
+                "https://github.com/negasihaile",
+                "https://www.linkedin.com/in/negasihaile",
+              ],
+            }),
+          }}
+        />
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}

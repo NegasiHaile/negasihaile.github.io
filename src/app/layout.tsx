@@ -72,6 +72,12 @@ export default function RootLayout({
           content={metadata.twitter.description}
         />
         <meta name="twitter:image" content={metadata.twitter.images[0]} />
+
+        {/* Google Search Console verification Meta Tags */}
+        <meta
+          name="google-site-verification"
+          content="14HE0bq4zM6LkjiMMXIEkEoTL8m7c_zs0BSbTnczyh0"
+        />
         {/* Canonical Link */}
         <link rel="canonical" href="https://negasihaile.github.io" />
         {/* Favicon */}

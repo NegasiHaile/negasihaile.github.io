@@ -13,6 +13,7 @@ import IconYoutube from "./IconYoutube";
 import IconX from "./IconX";
 import IconUpwork from "./IconUpwork";
 import IconGoogleScholar from "./IconGoogleScholar";
+import IconClipbaordDocument from "./IconClipbaordDocument";
 
 export {
   IconArrowRipple,
@@ -30,4 +31,5 @@ export {
   IconUpwork,
   IconX,
   IconYoutube,
+  IconClipbaordDocument,
 };

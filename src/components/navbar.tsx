@@ -7,7 +7,7 @@ import {
   IconBook,
   IconMicrophone,
   IconProjects,
-  IconPaperClip,
+  IconClipbaordDocument,
 } from "@/utils/icons";
 import IconHome from "@/utils/icons/IconHome";
 
@@ -18,7 +18,7 @@ const NavBar = () => {
       id: 0,
       title: "Resume",
       route: "/resume",
-      icon: <IconPaperClip />,
+      icon: <IconClipbaordDocument />,
     },
     {
       id: 0,

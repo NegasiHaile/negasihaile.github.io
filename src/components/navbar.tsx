@@ -15,7 +15,7 @@ const NavBar = () => {
   const pathname = usePathname(); // Use usePathname to get the current route
   const nav_items = [
     {
-      id: 0,
+      id: 3,
       title: "Resume",
       route: "/resume",
       icon: <IconClipbaordDocument />,

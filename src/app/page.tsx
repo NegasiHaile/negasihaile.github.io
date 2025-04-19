@@ -10,6 +10,8 @@ import {
   Testmonial_2,
   Testmonial_3,
   Testmonial_4,
+  Testmonial_5,
+  Testmonial_6,
 } from "@/utils/images";
 
 const Home = () => {
@@ -107,7 +109,9 @@ const Home = () => {
 
       {/* TESTMONIAL */}
       <div className="space-y-2 py-5">
-        <p className="font-bold uppercase">Upwork Testmonials</p>
+        <p className="font-bold uppercase">
+          Upwork Testmonials (<small>Verified, Top-RATED, 100%JSS</small>)
+        </p>
         <ImagesSlider
           images={[
             Testmonial_0,
@@ -115,6 +119,8 @@ const Home = () => {
             Testmonial_2,
             Testmonial_3,
             Testmonial_4,
+            Testmonial_5,
+            Testmonial_6,
           ]}
         />
       </div>

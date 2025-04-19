@@ -2,14 +2,12 @@ const ProfilePic =
   "https://res.cloudinary.com/dshwnppvx/image/upload/v1732745596/portfolio/assests/portfolio_n7liaq.jpg";
 
 const Testmonial_0 = "/testimonials/upwork-01.png";
-const Testmonial_1 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735652/portfolio/assests/upwork/Upwork-04_k4uqsw.png";
-const Testmonial_2 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735651/portfolio/assests/upwork/Upwork-01_i2yu1i.png";
-const Testmonial_3 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735650/portfolio/assests/upwork/Upwork-02_jolrt6.png";
-const Testmonial_4 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735651/portfolio/assests/upwork/Upwork-03_bgrppi.png";
+const Testmonial_1 = "/testimonials/upwork-02.png";
+const Testmonial_2 = "/testimonials/upwork-03.png";
+const Testmonial_3 = "/testimonials/upwork-04.png";
+const Testmonial_4 = "/testimonials/upwork-05.png";
+const Testmonial_5 = "/testimonials/upwork-06.png";
+const Testmonial_6 = "/testimonials/upwork-07.png";
 
 // CGM-AGP
 const AGP_1 =
@@ -90,6 +88,8 @@ export {
   Testmonial_2,
   Testmonial_3,
   Testmonial_4,
+  Testmonial_5,
+  Testmonial_6,
 
   // AGP reports
   AGP_1,

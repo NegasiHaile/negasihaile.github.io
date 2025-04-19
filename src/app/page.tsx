@@ -105,7 +105,21 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex flex-col py-5">
+      {/* TESTMONIAL */}
+      <div className="space-y-2 py-5">
+        <p className="font-bold uppercase">Upwork Testmonials</p>
+        <ImagesSlider
+          images={[
+            Testmonial_0,
+            Testmonial_1,
+            Testmonial_2,
+            Testmonial_3,
+            Testmonial_4,
+          ]}
+        />
+      </div>
+
+      <div className="w-full flex flex-col py-5">
         <p className="uppercase font-bold">GitHub contiributions</p>
 
         {/* <img
@@ -149,20 +163,6 @@ const Home = () => {
           </Link>
         </div>
         <ProjectsList display="pinned" />
-      </div>
-
-      {/* TESTMONIAL */}
-      <div className="space-y-2 py-5">
-        <p className="font-bold uppercase">Upwork Testmonials</p>
-        <ImagesSlider
-          images={[
-            Testmonial_0,
-            Testmonial_1,
-            Testmonial_2,
-            Testmonial_3,
-            Testmonial_4,
-          ]}
-        />
       </div>
     </div>
   );

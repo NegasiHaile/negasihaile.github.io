@@ -19,9 +19,9 @@ const ImagesSlider = ({ images }: TestmonialPropsTypes) => {
   }, []);
 
   return (
-    <div className="flex items-center w-full overflow-x-auto scrollbar-hide">
+    <div className="flex items-center w-full overflow-x-auto scrollbar-hide space-x-5">
       {[...images, ...images].map((img, index) => (
-        <div key={index} className="w-[75%] mx-2 flex-shrink-0">
+        <div key={index} className="w-[75%] flex-shrink-0">
           <Image
             src={img}
             alt={`testimonial-${index}`}

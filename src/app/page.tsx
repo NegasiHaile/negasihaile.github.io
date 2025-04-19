@@ -108,10 +108,8 @@ const Home = () => {
       </div>
 
       {/* TESTMONIAL */}
-      <div className="space-y-2 py-5">
-        <p className="font-bold uppercase">
-          Upwork Testmonials (<small>Verified, Top-RATED, 100%JSS</small>)
-        </p>
+      <div className="w-full">
+        <p className="font-bold uppercase">Testmonials</p>
         <ImagesSlider
           images={[
             Testmonial_0,
@@ -125,8 +123,8 @@ const Home = () => {
         />
       </div>
 
-      <div className="w-full flex flex-col py-5">
-        <p className="uppercase font-bold">GitHub contiributions</p>
+      <div className="w-full flex flex-col">
+        <p className="uppercase font-bold">GitHub contiribution</p>
 
         {/* <img
           src="https://github-readme-stats.vercel.app/api?username=negasihaile&show_icons=true&theme=radical"
@@ -135,7 +133,7 @@ const Home = () => {
         <img
           src="https://ghchart.rshah.org/negasihaile"
           alt="GitHub Contributions"
-          className="w-full h-full"
+          className="w-full h-full border rounded p-2"
         />
       </div>
 

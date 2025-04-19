@@ -1,8 +1,7 @@
 const ProfilePic =
   "https://res.cloudinary.com/dshwnppvx/image/upload/v1732745596/portfolio/assests/portfolio_n7liaq.jpg";
 
-const Testmonial_0 =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735650/portfolio/assests/upwork/Upwork-00_glthgu.png";
+const Testmonial_0 = "/testimonials/upwork-01.png";
 const Testmonial_1 =
   "https://res.cloudinary.com/dshwnppvx/image/upload/v1732735652/portfolio/assests/upwork/Upwork-04_k4uqsw.png";
 const Testmonial_2 =

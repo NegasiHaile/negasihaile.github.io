@@ -1,5 +1,4 @@
-const ProfilePic =
-  "https://res.cloudinary.com/dshwnppvx/image/upload/v1732745596/portfolio/assests/portfolio_n7liaq.jpg";
+const ProfilePic = "/profile-pic.png";
 
 const Testmonial_0 = "/testimonials/upwork-01.png";
 const Testmonial_1 = "/testimonials/upwork-02.png";

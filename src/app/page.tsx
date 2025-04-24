@@ -10,6 +10,8 @@ import {
   Testmonial_2,
   Testmonial_3,
   Testmonial_4,
+  Testmonial_5,
+  Testmonial_6,
 } from "@/utils/images";
 
 const Home = () => {
@@ -66,7 +68,7 @@ const Home = () => {
   return (
     <div className="w-full space-y-5">
       {/* OVERVIEW */}
-      <div className="rounded pb-10 space-y-3">
+      <div className="rounded pb-5 space-y-3">
         {/* WELCOME SECTION */}
         <div className="flex flex-col md:flex-row md:justify-between items-center pb-2 border-b w-full">
           <p className="text-sm opacity-85 text-center">
@@ -105,6 +107,36 @@ const Home = () => {
         </div>
       </div>
 
+      {/* TESTMONIAL */}
+      <div className="w-full">
+        <p className="font-bold uppercase">Testmonials</p>
+        <ImagesSlider
+          images={[
+            Testmonial_0,
+            Testmonial_1,
+            Testmonial_2,
+            Testmonial_3,
+            Testmonial_4,
+            Testmonial_5,
+            Testmonial_6,
+          ]}
+        />
+      </div>
+
+      <div className="w-full flex flex-col">
+        <p className="uppercase font-bold">GitHub contiribution</p>
+
+        {/* <img
+          src="https://github-readme-stats.vercel.app/api?username=negasihaile&show_icons=true&theme=radical"
+          alt="GitHub Stats"
+        /> */}
+        <img
+          src="https://ghchart.rshah.org/negasihaile"
+          alt="GitHub Contributions"
+          className="w-full h-full border rounded p-2"
+        />
+      </div>
+
       {/* PINNED PUBLICATIONS */}
       <div className="w-full space-y-2">
         <div className="flex justify-between items-center">
@@ -123,7 +155,7 @@ const Home = () => {
       </div>
 
       {/* PINNED SECTIONS */}
-      <div className="w-full space-y-2">
+      <div className="w-full space-y-2 py-5">
         <div className="flex justify-between items-center">
           <p className="uppercase font-bold">Pinned Projects</p>
           <Link
@@ -135,20 +167,6 @@ const Home = () => {
           </Link>
         </div>
         <ProjectsList display="pinned" />
-      </div>
-
-      {/* TESTMONIAL */}
-      <div className="space-y-2">
-        <p className="font-bold uppercase">Upwork Testmonials</p>
-        <ImagesSlider
-          images={[
-            Testmonial_0,
-            Testmonial_1,
-            Testmonial_2,
-            Testmonial_3,
-            Testmonial_4,
-          ]}
-        />
       </div>
     </div>
   );

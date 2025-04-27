@@ -109,7 +109,7 @@ const Home = () => {
 
       {/* TESTMONIAL */}
       <div className="w-full">
-        <p className="font-bold uppercase">Testmonials</p>
+        <p className="font-bold uppercase">UpWork Testmonials</p>
         <ImagesSlider
           images={[
             Testmonial_0,

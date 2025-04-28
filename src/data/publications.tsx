@@ -1,6 +1,40 @@
 export const publications = [
   {
     id: 2,
+    title: <>Machine Translation for Healthcare in Low-Resourced Languages</>,
+    abstract: (
+      <>
+        Prior work shows that physicians rely on commercially available Machine
+        Translation systems, which are not designed with the medical system as a
+        usecase. Errors in high-stakes settings like healthcare pose unique
+        risks that could lead to clinical harm.
+        <br /> <br />
+        The challenge is even more pronounced for low-resourced languages where
+        human translators are scarce and MT tools per form poorly. In this work,
+        we analyze the performance of publicly available Machine Translation
+        tools for errors in medical translation and test two pre and
+        post-translation interventions for their effectiveness in reducing
+        clinical harm. We focus on two low resourced languages: Amharic and
+        Tigrinya. Using publicly available datasets, we find that MT errors for
+        healthcare most commonly happen when the source sentence includes:
+        medical terminology, synonyms, figurative language, and descriptions of
+        medical procedures. We find that pre and post-translation interventions
+        are not effective in reducing clinical harm if the base translation
+        model performs poorly. Based on our findings, we provide recommendations
+        for NLP researchers and medical professionals.
+      </>
+    ),
+    conference: `EMNLP 2025`,
+    status: "Paper Writing",
+    start_at: "2024",
+    end_at: "2025",
+    publication_date: `2025`,
+    paper_link: "",
+    other_links: [],
+    pinned: true,
+  },
+  {
+    id: 2,
     title: (
       <>
         <b>Afro Chest X-ray:</b> Chest X-ray Imaging Dataset for Multiple
@@ -74,7 +108,7 @@ export const publications = [
     publication_date: `2025`,
     paper_link: "https://arxiv.org/abs/2411.05049",
     other_links: [],
-    pinned: true,
+    pinned: false,
   },
   {
     id: 0,

@@ -82,27 +82,26 @@ const Home = () => {
         <div className="space-y-5">
           <p className="md:text-justify">
             I&apos;m a software engineer with 4 years of experience in
-            developing enterprise-level applications, mainly focused on digital
-            healthcare solutions. My recent work includes, Implementing
-            Ambulatory Glucose Profile (AGP) reports which visualize complex
-            glucose data from CGM devices, and building a Diabetes Intervention
-            System, a healthcare data server management dashboard, and an HR
-            system for healthcare institutions.
+            developing enterprise-level applications, primarly focused on
+            digital healthcare solutions. My recent work includes, Implementing
+            Ambulatory Glucose Profile (AGP) reports; visualize complex glucose
+            data from CGM devices, and building a Diabetes Intervention System,
+            data server management dashboard, and HR system and for healthcare.
             <br />
             <br />
-            And, as a data scientist with more than 2 years of part-time
-            experience, my background includes processing medical images (X-ray,
-            CT, MRI) and radiology reports, visualizing glucose pattern
-            insights, and creating baseline models. Additionally, I evaluated
-            machine translation systems with patient discharge prescriptions and
-            provided feedback to improve system performance.
+            As a data scientist with more than 2 years of experience, my
+            background includes processing medical images (X-ray, CT, MRI),
+            structuring unstructured radiology reports, visualizing glucose
+            pattern, and creating baseline models. Additionally, I evaluated
+            Machine translation systems' performance with medical terminologies
+            and provided feedback to improve the performance.
             <br />
             <br />
             This exposure has deepened my interest in
-            <b> Digital Healthcare Transformation</b>. I aim to improve
-            healthcare delivery and physician decision-supports by analyzing
-            healthcare data with advanced machine learning techniques and
-            digitalization solutions.
+            <b> Digital Healthcare Transformation</b> and
+            <b> data-driven solutions</b>. I aim to improve healthcare delivery
+            and physicians' decision-support tools through leveraging advanced
+            machine learning techniques and digitalization solutions.
           </p>
         </div>
       </div>

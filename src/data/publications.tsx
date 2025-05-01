@@ -1,7 +1,12 @@
 export const publications = [
   {
     id: 2,
-    title: <>Machine Translation for Healthcare in Low-Resourced Languages</>,
+    title: (
+      <>
+        Viability of Machine Translation for Healthcare in Low-Resourced
+        Languages
+      </>
+    ),
     abstract: (
       <>
         Prior work shows that physicians rely on commercially available Machine

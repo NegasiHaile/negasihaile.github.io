@@ -30,7 +30,7 @@ const Publication = ({ publication }: PuclicationPropsTypes) => {
         </div>
       </div>
 
-      <p className="py-5 dark:font-thin text-justify line-clamp-2">
+      <p className="py-5 dark:font-thin text-justify line-clamp-5">
         {publication.abstract}
       </p>
 

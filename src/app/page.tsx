@@ -73,7 +73,7 @@ const Home = () => {
         <div className="flex flex-col md:flex-row md:justify-between items-center pb-2 border-b w-full">
           <p className="text-sm opacity-85 text-center">
             Software Engineer | Data Scientist | Digital Healthcare Solutions |
-            Health AI
+            Health AI | NLP
           </p>
           {/* <p className="font-bold text-2xl">Negasi Haile A.</p> */}
         </div>
@@ -153,8 +153,11 @@ const Home = () => {
         })}
       </div>
 
-      {/* PINNED SECTIONS */}
-      <div className="w-full space-y-2 py-5">
+      {/* PINNED PROJECTS */}
+      <section
+        aria-label="Negasi Haile's pineed projects"
+        className="w-full space-y-2 py-5"
+      >
         <div className="flex justify-between items-center">
           <p className="uppercase font-bold">Pinned Projects</p>
           <Link
@@ -166,7 +169,7 @@ const Home = () => {
           </Link>
         </div>
         <ProjectsList display="pinned" />
-      </div>
+      </section>
     </div>
   );
 };

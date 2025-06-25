@@ -1,6 +1,6 @@
 export const publications = [
   {
-    id: 2,
+    id: 3,
     title: (
       <>
         Viability of Machine Translation for Healthcare in Low-Resourced
@@ -9,28 +9,21 @@ export const publications = [
     ),
     abstract: (
       <>
-        Prior work shows that physicians rely on commercially available Machine
-        Translation systems, which are not designed with the medical system as a
-        usecase. Errors in high-stakes settings like healthcare pose unique
-        risks that could lead to clinical harm.
-        <br /> <br />
-        The challenge is even more pronounced for low-resourced languages where
-        human translators are scarce and MT tools per form poorly. In this work,
-        we analyze the performance of publicly available Machine Translation
-        tools for errors in medical translation and test two pre and
+        In this work, we analyze the performance of publicly available Machine
+        Translation tools for errors in medical translation and test two pre and
         post-translation interventions for their effectiveness in reducing
         clinical harm. We focus on two low resourced languages: Amharic and
-        Tigrinya. Using publicly available datasets, we find that MT errors for
-        healthcare most commonly happen when the source sentence includes:
-        medical terminology, synonyms, figurative language, and descriptions of
-        medical procedures. We find that pre and post-translation interventions
-        are not effective in reducing clinical harm if the base translation
-        model performs poorly. Based on our findings, we provide recommendations
-        for NLP researchers and medical professionals.
+        Tigrinya.
+        <br /> <br />
+        We find that MT errors for healthcare most commonly happen when the
+        source sentence includes: medical terminology, synonyms, figurative
+        language, and descriptions of medical procedures. We find that pre and
+        post-translation interventions are not effective in reducing clinical
+        harm if the base translation model performs poorly.
       </>
     ),
     conference: `EMNLP 2025`,
-    status: "Paper Writing",
+    status: "On Review",
     start_at: "2024",
     end_at: "2025",
     publication_date: `2025`,
@@ -76,6 +69,33 @@ export const publications = [
     paper_link: "https://github.com/asmelashteka/Afro-Chest-X-ray",
     other_links: [],
     pinned: true,
+  },
+  {
+    id: 4,
+    title: (
+      <>
+        <b>A Case Against Implicit Standards:</b> Homophone Normalization in
+        Machine Translation for Languages that use the Geez Script
+      </>
+    ),
+    abstract: (
+      <>
+        In this paper, we experiment with monolingual training and cross-lingual
+        transfer to understand the impacts of normalization on languages that
+        use the Geez script. We then propose a post-inference intervention in
+        which normalization is applied to model predictions instead of training
+        data.
+        <br /> <br />
+      </>
+    ),
+    conference: `NeurIPS 2025`,
+    status: "Paper Writing",
+    start_at: "2022",
+    end_at: "2024",
+    publication_date: `2025`,
+    paper_link: "https://github.com/asmelashteka/Afro-Chest-X-ray",
+    other_links: [],
+    pinned: false,
   },
   {
     id: 1,

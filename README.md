@@ -1,6 +1,6 @@
-A modern, responsive developer portfolio built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/).
+# Negasi Haile
 
-> Showcasing my projects, skills, experience, and contact information in a sleek and performant single-page application.
+> Showcasing my projects, skills, experience, and contact information.
 
 ---
 

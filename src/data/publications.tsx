@@ -23,7 +23,7 @@ export const publications = [
       </>
     ),
     conference: `EMNLP 2025`,
-    status: "On Review",
+    status: "Under Review",
     start_at: "2024",
     end_at: "2025",
     publication_date: `2025`,
@@ -88,12 +88,12 @@ export const publications = [
         <br /> <br />
       </>
     ),
-    conference: `NeurIPS 2025`,
-    status: "Paper Writing",
+    conference: `EMNLP 2025`,
+    status: "Under Review",
     start_at: "2022",
     end_at: "2024",
     publication_date: `2025`,
-    paper_link: "https://github.com/asmelashteka/Afro-Chest-X-ray",
+    paper_link: "https://arxiv.org/pdf/2507.15142",
     other_links: [],
     pinned: false,
   },

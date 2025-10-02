@@ -23,7 +23,7 @@ export const publications = [
       </>
     ),
     conference: `EMNLP 2025`,
-    status: "Under Review",
+    status: "Accepted",
     start_at: "2024",
     end_at: "2025",
     publication_date: `2025`,
@@ -89,11 +89,11 @@ export const publications = [
       </>
     ),
     conference: `EMNLP 2025`,
-    status: "Under Review",
+    status: "Accepted",
     start_at: "2022",
     end_at: "2024",
     publication_date: `2025`,
-    paper_link: "https://arxiv.org/pdf/2507.15142",
+    paper_link: "https://arxiv.org/abs/2507.15142",
     other_links: [],
     pinned: false,
   },

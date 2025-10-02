@@ -3,12 +3,7 @@
 import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation"; // Import usePathname to get the current route
-import {
-  IconBook,
-  IconMicrophone,
-  IconProjects,
-  IconClipbaordDocument,
-} from "@/utils/icons";
+import { IconBook, IconProjects, IconClipbaordDocument } from "@/utils/icons";
 import IconHome from "@/utils/icons/IconHome";
 
 const NavBar = () => {
@@ -31,12 +26,6 @@ const NavBar = () => {
       title: "Publications",
       route: "/publications",
       icon: <IconBook />,
-    },
-    {
-      id: 2,
-      title: "Blogs",
-      route: "/blogs",
-      icon: <IconMicrophone />,
     },
   ];
 

@@ -22,11 +22,11 @@ const geistMono = localFont({
 export const metadata = {
   title: "Negasi Haile - Software Engineer, Data Scientist",
   description:
-    "Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
+    "Data Scientist & Software Engineer focused on implementing NLP & Health AI research findings into real-world solutions, delivering data-driven insights, and AI business automation solutions.",
   openGraph: {
     title: "Negasi Haile",
     description:
-      "Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
+      "Data Scientist & Software Engineer focused on implementing NLP & Health AI research findings into real-world solutions, delivering data-driven insights, and AI business automation solutions.",
     url: "https://negasihaile.github.io", // Change to your site's URL
     images: [
       "https://res.cloudinary.com/dshwnppvx/image/upload/v1732745596/portfolio/assests/portfolio_n7liaq.jpg",
@@ -37,7 +37,7 @@ export const metadata = {
     card: "summary_large_image", // Corrected Twitter card type
     title: "Negasi Haile",
     description:
-      "Software Engineer & Data Scientist focused on delivering enterprise-level applications, data-driven insights, and AI solutions.",
+      "Data Scientist & Software Engineer focused on implementing NLP & Health AI research findings into real-world solutions, delivering data-driven insights, and AI business automation solutions.",
     images: [
       "https://res.cloudinary.com/dshwnppvx/image/upload/v1732745596/portfolio/assests/portfolio_n7liaq.jpg",
     ], // Specify the image for Twitter cards
@@ -93,7 +93,7 @@ export default function RootLayout({
               url: "https://negasihaile.github.io",
               jobTitle: "Software Engineer & Data Scientist",
               description:
-                "Software Engineer & Data Scientist focused on digital healthcare, AI, and enterprise solutions.",
+                "Data Scientist & Software Engineer focused on NLP, Health AI, digital healthcare and AI automation solutions.",
               sameAs: [
                 "https://github.com/negasihaile",
                 "https://www.linkedin.com/in/negasihaile",

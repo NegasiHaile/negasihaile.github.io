@@ -71,7 +71,7 @@ const Home = () => {
       <div className="rounded pb-5 space-y-3">
         {/* WELCOME SECTION */}
         <div className="flex flex-col md:flex-row md:justify-between items-center pb-2 border-b w-full">
-          <p className="text-sm opacity-85 text-center">
+          <p className="text-lg font-bold text-center">
             Software Engineer | Data Scientist | Digital Healthcare Solutions |
             Health AI | NLP
           </p>
@@ -81,20 +81,21 @@ const Home = () => {
         {/* PROFILE SECTIONS*/}
         <div className="space-y-5">
           <p className="md:text-justify">
-            I&apos;m a software engineer with 4 years of experience in
-            developing enterprise-level applications, primarly focused on
-            digital healthcare solutions. My recent work includes, Implementing
+            I&apos;m a full-stack software developer with 6 years of experience
+            in developing enterprise-level applications, primarly focused on
+            data driven solutions. My recent work includes, Implementing
             Ambulatory Glucose Profile (AGP) reports that visualize continuous
             glucose monitoring (CGM) data, building a diabetes intervention
-            system, data server dashboard and HR systems tailored to healthcare.
+            system, and Translation/Transcription/Text-to-Speech for a language
+            tech startup.
             <br />
             <br />
             As a data scientist with more than 2 years of experience, my
             background includes processing medical images (X-ray, CT, MRI),
             structuring unstructured radiology reports, visualizing glucose
             pattern, and creating baseline models. Additionally, I evaluated
-            Machine translation systems&#39; performance with medical
-            terminologies and provided feedback to improve the performance.
+            Machine translation/transcription systems&#39; performance and
+            provided feedback to improve the performance.
             <br />
             <br />
             This exposure has deepened my interest in

@@ -81,16 +81,16 @@ const Home = () => {
         {/* PROFILE SECTIONS*/}
         <div className="space-y-5">
           <p className="md:text-justify">
-            I&apos;m a full-stack software developer with 6 years of experience
-            in developing enterprise-level applications, primarly focused on
-            data driven solutions. My recent work includes, Implementing
-            Ambulatory Glucose Profile (AGP) reports that visualize continuous
-            glucose monitoring (CGM) data, building a diabetes intervention
-            system, and Translation/Transcription/Text-to-Speech for a language
-            tech startup.
+            I&apos;m a software developer with 4 years of experience in
+            developing enterprise-level applications, primarly focused on data
+            driven solutions. My recent work includes, Implementing Ambulatory
+            Glucose Profile (AGP) reports that visualize continuous glucose
+            monitoring (CGM) data, building a diabetes intervention system, and
+            Translation/Transcription/Text-to-Speech for a language tech
+            startup.
             <br />
             <br />
-            As a data scientist with more than 2 years of experience, my
+            As a data scientist and researcher with 4 years of experience, my
             background includes processing medical images (X-ray, CT, MRI),
             structuring unstructured radiology reports, visualizing glucose
             pattern, and creating baseline models. Additionally, I evaluated

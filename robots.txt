@@ -1,5 +1,6 @@
 User-Agent: *
 Allow: /
+Disallow: /blogs/
 Disallow: /*_draft/
 Disallow: /blogs/*_draft/
 

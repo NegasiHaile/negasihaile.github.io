@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+Developer: Negasi Haile Abadi (Negasi Haile, Negasi Abadi)
+Site: https://negasihaile.github.io/
+Location: Ethiopia
+Role: Software Engineer, Data Scientist
+Twitter: @NegasiHaileA
+LinkedIn: https://www.linkedin.com/in/negasi-haile-abadi/
+GitHub: https://github.com/NegasiHaile
+
+/* THANKS */
+Name: Visitors and collaborators
+
+/* SITE */
+Last update: 2025/06/15
+Standards: HTML5, CSS3, Schema.org
+Software: Next.js, React, Tailwind CSS
+Hosting: GitHub Pages

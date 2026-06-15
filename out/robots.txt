@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /*_draft/
+Disallow: /blogs/*_draft/
+
+Host: https://negasihaile.github.io
+Sitemap: https://negasihaile.github.io/sitemap.xml

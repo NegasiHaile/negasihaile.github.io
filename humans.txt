@@ -2,10 +2,10 @@
 # The humans responsible & technology colophon
 
 /* TEAM */
-Developer: Negasi Haile Abadi (Negasi Haile, Negasi Abadi)
+Developer: Negasi Haile Abadi (Negasi Haile, Negasi)
 Site: https://negasihaile.github.io/
 Location: Ethiopia
-Role: Software Engineer, Data Scientist
+Role: Software Engineer, Data Scientist, Reasercher
 Twitter: @NegasiHaileA
 LinkedIn: https://www.linkedin.com/in/negasi-haile-abadi/
 GitHub: https://github.com/NegasiHaile

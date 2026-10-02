@@ -33,6 +33,21 @@ export async function getBlogs() {
   return blogs;
 }
 
+export function isBlogIndexable(
+  slug: string,
+  publicVisible: boolean | undefined
+): boolean {
+  if (slug.includes("_draft")) return false;
+  return publicVisible === true;
+}
+
+export async function getIndexableBlogs() {
+  const blogs = await getBlogs();
+  return blogs.filter((blog) =>
+    isBlogIndexable(blog.slug, blog.frontmatter.publicVisible)
+  );
+}
+
 export function getAllBlogSlug() {
   const files = fs.readdirSync(contentDir);
   const slugs = files.map((file) => ({ slug: path.parse(file).name }));

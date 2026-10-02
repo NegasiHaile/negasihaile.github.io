@@ -1,5 +1,19 @@
 import React from "react";
 import ProjectsList from "@/components/projects";
+import { createPageMetadata } from "@/lib/seo";
+
+export const metadata = createPageMetadata({
+  title: "Projects | Negasi Haile Abadi - Software Engineer & Data Scientist",
+  description:
+    "Projects by Negasi Haile Abadi including Afro Chest X-ray, Ambulatory Glucose Profile reports, DEMER HR, EthioAI Hub, HornChat, and healthcare software engineering work.",
+  path: "/projects/",
+  keywords: [
+    "Negasi Haile projects",
+    "Health AI projects",
+    "Afro Chest X-ray",
+    "digital healthcare software",
+  ],
+});
 
 const Projects = () => {
   return (

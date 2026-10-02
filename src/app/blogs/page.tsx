@@ -1,5 +1,21 @@
 import Link from "next/link";
 import { getBlogs } from "./fetchers";
+import { createPageMetadata } from "@/lib/seo";
+import { BLOGS_PUBLIC } from "@/lib/site-config";
+
+export const metadata = createPageMetadata({
+  title: "Blog | Negasi Haile Abadi - Software Engineering & Freelancing",
+  description:
+    "Articles by Negasi Haile Abadi on freelancing, software engineering, digital healthcare, and professional development.",
+  path: "/blogs/",
+  keywords: [
+    "Negasi Haile blog",
+    "freelancing",
+    "Upwork",
+    "software engineering articles",
+  ],
+  noIndex: !BLOGS_PUBLIC,
+});
 
 export default async function BlogsPage() {
   const blogs = await getBlogs();

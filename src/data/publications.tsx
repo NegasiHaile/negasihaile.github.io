@@ -1,5 +1,32 @@
 export const publications = [
   {
+    id: 5,
+    title: (
+      <>
+        Afri-MCQA: Multimodal Cultural Question Answering for African Languages
+      </>
+    ),
+    abstract: (
+      <>
+        Africa is home to over one-third of the world&apos;s languages, yet remains underrepresented in AI research. We introduce Afri-MCQA, the first Multilingual Cultural Question-Answering benchmark covering 7.5k Q&A pairs across 15 African languages from 12 countries. The benchmark offers parallel English-African language Q&A pairs across text and speech modalities and was entirely created by native speakers. Benchmarking large language models (LLMs) on Afri-MCQA shows that open-weight models perform poorly across evaluated cultures, with near-zero accuracy on open-ended VQA when queried in native language or speech. To evaluate linguistic competence, we include control experiments meant to assess this specific aspect separate from cultural knowledge, and we observe significant performance gaps between native languages and English for both text and speech. These findings underscore the need for speech-first approaches, culturally grounded pretraining, and cross-lingual cultural transfer.
+      </>
+    ),
+    conference: `arXiv e-prints`,
+    status: "Published",
+    start_at: "2025",
+    end_at: "2026",
+    publication_date: `2026`,
+    paper_link: "https://aclanthology.org/2025.emnlp-main.535/",
+    other_links: [
+      {
+        id: 1,
+        title: "Dataset",
+        link: "https://huggingface.co/datasets/Atnafu/Afri-MCQA",
+      },
+    ],
+    pinned: false,
+  },
+  {
     id: 3,
     title: (
       <>
@@ -23,11 +50,11 @@ export const publications = [
       </>
     ),
     conference: `EMNLP 2025`,
-    status: "Accepted",
+    status: "Published",
     start_at: "2024",
     end_at: "2025",
     publication_date: `2025`,
-    paper_link: "",
+    paper_link: "https://aclanthology.org/2025.emnlp-main.535/",
     other_links: [],
     pinned: true,
   },
@@ -61,7 +88,7 @@ export const publications = [
         scarce radiologists.
       </>
     ),
-    conference: `NeurIPS 2025`,
+    conference: ``,
     status: "Paper Writing",
     start_at: "2022",
     end_at: "2024",

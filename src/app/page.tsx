@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import ProjectsList from "@/components/projects";
 import Publication from "@/components/publication";
@@ -68,12 +69,11 @@ const Home = () => {
   return (
     <div className="w-full space-y-5">
       {/* OVERVIEW */}
-      <div className="rounded pb-5 space-y-3">
+      <div className="rounded pb-5 space-y-5">
         {/* WELCOME SECTION */}
         <div className="flex flex-col md:flex-row md:justify-between items-center pb-2 border-b w-full">
-          <p className="text-lg font-bold text-center">
-            Software Engineer | Data Scientist | Digital Healthcare Solutions |
-            Health AI | NLP
+          <p className="text-3xl font-semibold text-center">
+            Software Engineer | Data Scientist | Researcher | Health AI | NLP
           </p>
           {/* <p className="font-bold text-2xl">Negasi Haile A.</p> */}
         </div>
@@ -81,59 +81,55 @@ const Home = () => {
         {/* PROFILE SECTIONS*/}
         <div className="space-y-5">
           <p className="md:text-justify">
-            I&apos;m a software developer with 4 years of experience in
-            developing enterprise-level applications, primarly focused on data
-            driven solutions. My recent work includes, Implementing Ambulatory
-            Glucose Profile (AGP) reports that visualize continuous glucose
-            monitoring (CGM) data, building a diabetes intervention system, and
-            Translation/Transcription/Text-to-Speech for a language tech
-            startup.
+            As I have worked in startups for the past 5+ years, my experience has
+            been at the intersection of{" "}
+            <b>software engineering, data processing, and NLP research</b>. As a
+            software engineer, I have built enterprise-level applications
+            end-to-end, from designing system architectures and implementing both
+            frontend and backend components to deploying and maintaining
+            production systems. My recent work includes developing a diabetes
+            intervention system, standardizing Continuous Glucose Monitoring
+            (CGM) data to FHIR, implementing HIPAA-compliant systems like{" "}
+            <Link
+              href="https://syncagp.vercel.app/"
+              target="_blank"
+              className="text-blue-500"
+            >
+              Ambulatory Glucose Profile (AGP) reports
+            </Link>
+            , and designing language technology platforms for Machine
+            Translation, Automatic Speech Recognition, and Text-to-Speech.
             <br />
             <br />
-            As a data scientist and researcher with 4 years of experience, my
-            background includes processing medical images (X-ray, CT, MRI),
-            structuring unstructured radiology reports, visualizing glucose
-            pattern, and creating baseline models. Additionally, I evaluated
-            Machine translation/transcription systems&#39; performance and
-            provided feedback to improve the performance.
+            <b>As a data scientist</b>, I have worked across the full data lifecycle,
+            from coordinating and leading field data collection teams to
+            processing, annotating, validating, and preparing datasets for
+            annotation and machine learning. This includes healthcare data such
+            as large-scale chest X-ray images and clinical reports, as well as
+            NLP data such as text corpora and speech recordings.
             <br />
             <br />
-            This exposure has deepened my interest in
-            <b> Digital Healthcare Transformation</b> and
-            <b> data-driven solutions</b>. I aim to improve healthcare delivery
-            and physicians&#39; decision-support tools through leveraging
-            advanced machine learning techniques and digitalization solutions.
+            <b>As a researcher</b>, I have evaluated state-of-the-art NLP models,
+            analyzing their capabilities, limitations, and failure modes across
+            different domains, mainly healthcare. I have designed benchmarks,
+            conducted systematic model evaluations, and provided targeted
+            feedback and datasets to address identified performance gaps.
+            Moreover, I have designed a language technology evaluation and
+            leaderboard that also periodically benchmarks new and uncontaminated
+            evaluation datasets across multiple domains like healthcare
+            (patient-doctor communication).
           </p>
         </div>
       </div>
 
-      {/* TESTMONIAL */}
-      <div className="w-full">
-        <p className="font-bold uppercase">UpWork Testmonials</p>
-        <ImagesSlider
-          images={[
-            Testmonial_0,
-            Testmonial_1,
-            Testmonial_2,
-            Testmonial_3,
-            Testmonial_4,
-            Testmonial_5,
-            Testmonial_6,
-          ]}
-        />
-      </div>
-
       <div className="w-full flex flex-col">
         <p className="uppercase font-bold">GitHub contiribution</p>
-
-        {/* <img
-          src="https://github-readme-stats.vercel.app/api?username=negasihaile&show_icons=true&theme=radical"
-          alt="GitHub Stats"
-        /> */}
-        <img
+        <Image
           src="https://ghchart.rshah.org/negasihaile"
           alt="GitHub Contributions"
-          className="w-full h-full border rounded p-2"
+          width={1200}
+          height={200}
+          className="w-full h-auto border rounded p-2"
         />
       </div>
 
@@ -171,6 +167,22 @@ const Home = () => {
         </div>
         <ProjectsList display="pinned" />
       </section>
+
+      {/* TESTMONIAL */}
+      <div className="w-full min-w-0 overflow-hidden">
+        <p className="font-bold uppercase">UpWork Testmonials</p>
+        <ImagesSlider
+          images={[
+            Testmonial_0,
+            Testmonial_1,
+            Testmonial_2,
+            Testmonial_3,
+            Testmonial_4,
+            Testmonial_5,
+            Testmonial_6,
+          ]}
+        />
+      </div>
     </div>
   );
 };

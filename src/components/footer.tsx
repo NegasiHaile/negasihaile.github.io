@@ -1,6 +1,6 @@
 import Link from "next/link";
-// import Script from "next/script";
 import { social_accounts } from "@/data/social_accounts";
+import VisitorMap from "@/components/visitor-map";
 
 const Footer = () => {
   return (
@@ -18,20 +18,7 @@ const Footer = () => {
           </Link>
         );
       })}
-      {/* <div className="block w-32 h-32 bg-blue-500 relative">
-        <Script
-          id="clstr_globe"
-          src="//clustrmaps.com/globe.js?cl=ffffff&w=80&t=n&d=d8TZolWdey3PKPhW4zQr5P9Eo13CRY7aqhQDwreSp4Y"
-          strategy="afterInteractive"
-        />
-      </div> */}
-      <div className="block w-32 h-32">
-        <script
-          type="text/javascript"
-          id="clstr_globe"
-          src="//clustrmaps.com/globe.js?w=120&t=n&d=d8TZolWdey3PKPhW4zQr5P9Eo13CRY7aqhQDwreSp4Y"
-        ></script>
-      </div>
+      <VisitorMap />
     </footer>
   );
 };

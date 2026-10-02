@@ -132,7 +132,7 @@ export const projects = [
     description: `A web app project for Continuous Glucose Monitoring (CGM) data visualization with Ambulatory Glucose Profile (AGP) report focuses on leveraging glucose data to revolutionize diabetes management. It collects real-time glucose data from LibreView, providing actionable insights for patients and clinicians through visaulizing in charts. Key features include Time In Range (TIR) analysis, which highlights the percentage of time a patient’s glucose levels stay within the target range, and Glucose Metrics, offering statistical insights like average glucose and variability. The project also includes Ambulatory Glucose Profile (AGP) for visualizing glucose trends and patterns over 2 weeks (14 days) and Daily Glucose Profile, showcasing day-to-day glucose fluctuations. Together, these tools aim to enhance decision-making, optimize treatment, and improve overall diabetes care.`, // Put what this project do, and what problem it solve
     pinned: true, // true/false
     tech_stack: ["JavaScript", "ReactJS", "ChartJS"],
-    demo: "https://cgm-agp.vercel.app/",
+    demo: "https://syncagp.vercel.app/",
     git: "https://github.com/NegasiHaile/agp",
     // youtube:
     //   "https://youtube.com/playlist?list=PLIgg_qVBmD-c-yU5_sNkhIO__9FrHLyFh&feature=shared",
